@@ -1,4 +1,4 @@
-html, body { width: 100%; height: 100%; margin:0; padding:0; }
+html, body { width: 100%; height: 100%; margin:0; padding:0; overflow-y: hidden; }
 
 .rectangle {
 	cursor: pointer;
@@ -160,10 +160,16 @@ html, body { width: 100%; height: 100%; margin:0; padding:0; }
 	background-color: black;
 	position: fixed;
 	left: 45%;
-	top: 40%;
-
-	
+	top: 30%;
+	opacity: 0;
+		
 }
+
+.rectangles_fourteen.blink {
+	animation: pulse 5s infinite;
+}
+
+
 
 .rectangles_fifthteen {
 	width: 20%;
@@ -191,43 +197,31 @@ html, body { width: 100%; height: 100%; margin:0; padding:0; }
 
 .text {
 	font-family: "futura";
-	font-size: 30pt;
+	font-size: 3vmin;
 	line-height: 2pt; 
-	margin: 0 auto;
+	position: absolute;
 	text-align: center;
-	z-index: 10000;
-	margin-bottom: 50px;
-	
-	
-	
+	top: 40%;
+	left: 38%;
 }
 
+.text.hide { display: none; }
 
 .selected {
 	background: #4F99D4;
 }
 
 
-/*.receipt {
-	width: 20%;
-	height: 50%;
-	border-width: 5pt;
-	border-style: solid;
-	border-color: black;
-	background: white;
-	position: fixed;
-	left: 40%;
-	top: 25%;
-	
-}
-*/
+
 .total {
-	margin: 0 auto;
+	margin-top: -180px;
 	text-align: center;
 	font-family: "futura";
 	font-size: 600pt;
-	z-index: 100000;
+
+
 }
+
 
 
 
