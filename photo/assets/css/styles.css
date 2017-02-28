@@ -122,6 +122,26 @@ p {
 	margin-bottom: 100px;
 }
 
+.sidebar {
+    font-family: "gibson";
+    font-weight: lighter;
+    font-size: 8pt;
+    color: black;
+    position: fixed;
+    left: 0%;
+    top: 66%;
+}
+
+.side-bar {
+    font-family: "gibson";
+    font-weight: lighter;
+    font-size: 8pt;
+    color: black;
+    position: fixed;
+    left: 0%;
+    top: 70%;
+}
+
 /*#square {
 	float:left;
 	margin:0 auto;
