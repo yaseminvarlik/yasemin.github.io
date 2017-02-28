@@ -1,6 +1,6 @@
 
 
-html, body { width: 100%; height: 100%; }
+html, body { width: 100%; height: 100%; overflow: auto;}
 
 body {
     background-color: white;
@@ -8,7 +8,121 @@ body {
 ul {
 	list-style-type: none;
 }
-#square {
+
+a {
+
+	color: black;
+    text-decoration: none;
+
+}
+
+h1{
+	font-family: "gibson";
+	font-weight: lighter;
+	 font-size: 2.1vmin;  
+     letter-spacing: 3px; 
+     text-align: center;
+     width: 100%;
+     top: 30%;
+     position: fixed;
+     
+}
+
+p {
+	font-family: "gibson";
+	font-weight: lighter;
+	font-size: 8pt;
+	position: absolute;
+	margin-bottom: 40px;
+}
+
+
+.one img{
+	position: absolute;
+	top: 18%;
+	left: 10%;
+	width: 25%;
+	height: 30%;
+}
+
+.one p {
+	left: 10%;
+	top: 47%;
+	position: absolute;
+}
+
+.two img {
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	width: 25%;
+	height: 30%;
+}
+
+.two p{
+	top: 69%;
+	left: 40%;	
+}
+
+.three img {
+	position: absolute;
+	top: 75%;
+	left: 60%;
+	background-color: black;
+	width: 25%;
+	height: 30%;
+}
+
+.three p{
+	top: 104%;
+	left: 60%;	
+}
+
+.four img {
+	position: absolute;
+	top: 90%;
+	left: 0%;
+	background-color: black;
+	width: 25%;
+	height: 30%;
+}
+
+.four p{
+	top: 119%;
+	left: 0%;	
+}
+	
+.five img {
+	position: absolute;
+	top: 140%;
+	left: 35%;
+	background-color: black;
+	width: 25%;
+	height: 30%;
+}
+
+.five p{
+	top: 169%;
+	left: 35%;	
+}
+
+.six img {
+	position: absolute;
+	top: 160%;
+	right: 0;
+	background-color: black;
+	width: 25%;
+	height: 30%;
+}
+
+
+.six p {
+	top: 189%;
+	right: 20%;	
+	margin-bottom: 100px;
+}
+
+/*#square {
 	float:left;
 	margin:0 auto;
 	display: block;
@@ -47,18 +161,16 @@ ul {
 
 	/*margin-right: 15px;*/
 	   
-}
+}*/
 
 
 .footer p {
-	font-family: "gibson"
-	font-weight:lighter;
     font-size: 6pt;
     text-align: center;
-    margin: 0 auto;
+    
     bottom: 10px;
-    left: 49%;
-    position:fixed;
+    
+   
 
 }
 
