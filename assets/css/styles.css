@@ -1,90 +1,54 @@
-
+*{
+    box-sizing: border-box;
+}
 
 html, body { width: 100%; height: 100%; }
-@font-face { font-family: "gibson"; src: url("../fonts/ctgl.otf"); }
+@font-face { font-family: "gibson"; src: url("./fonts/ctgl.otf"); }
 
 body {
-    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
 }
 
-.main {
-    position: fixed;
-    text-align: center;
-    
-}
 
-h1, h2, h3, p {
+
+h1, h3, p {
     font-family: "gibson";
     font-weight: lighter;
-    position: fixed;
-    text-align: center;
-   
-}
+    }
 
 h1 { 
+        position: fixed;
         font-size: 15px;  
         letter-spacing: 3px; 
-        text-align: center;
-        width: 100%;
-        top: 40%;
-
+        margin: auto;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     width: 150px;
+     height: 40px;   
         
     }
 
+.main a h3 {
 
-
-.one { 
-    font-size: 15px; 
-    color: black;
-    width: 100%;
-    top: 45%;
-    letter-spacing: 1px;
-
-    
-    }
-
-.two {
-    font-size: 15px;
-    width: 100%;   
-    color: black;
-    top: 47.5%;
-    letter-spacing: 1px;
-
+    font-size: 10pt;
+    text-align: left;
 
 }
-.three {
-    font-size: 15px;
-    width: 100%;   
-    color: black;
-    top: 50.5%;
-    letter-spacing: 1px;
-
+.main{
+     position: absolute;
+     margin: auto;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     width: 150px;
+     height: 0px;   
 }
 
-.four { 
-    font-size: 15px;  
-    width: 100%; 
-    color: black;
-    top: 53.5%;
-    letter-spacing: 1px;
-    }
-
-.five {
-
-    font-size: 15px;
-    width: 100%;   
-    color: black;
-    top: 56.5%;
-    letter-spacing: 1px;
-
-}
-.six {
-    font-size: 15px;
-    width: 100%;   
-    color: black;
-    top: 59.5%;
-    letter-spacing: 1px;
-}
 
 
 a {
@@ -99,23 +63,24 @@ a {
     text-align: center;
     margin: 0 auto;
     bottom: 10px;
-    left: 49%;
+    left: 47%;
     position:fixed;
 
 }
 
 .image img {
-    max-width: 100%;
+    
     width: 100px;
     height: 150px;
-    position: fixed;
-    top: 10%;
-    left: 51%;
-    margin-left: -50px;
-
+    position: absolute;
+     margin: auto;
+     top: -300px;
+     right: 0;
+     bottom: 0;
+     left: 0;
     
 }
-
+/*PHOTOGRAPHY/*/
 .photo img {
 
     position: fixed;
@@ -126,15 +91,27 @@ a {
     margin-left: -70px;
 
 }
+/*CODING*/
+.coding-image img {
+   width: 240px;
+    height: 130px;
+    position: absolute;
+     margin: auto;
+     top: -300px;
+     right: 0;
+     bottom: 0;
+     left: 0;
+}
 
 .sidebar {
     font-family: "gibson";
     font-weight: lighter;
     font-size: 8pt;
     color: black;
-    position: relative;
-    left: 1%;
-    top: 69%;
+    float: left;
+    position: fixed;
+    right: 80px;
+    top: 2%;
 }
 
 .side-bar {
@@ -142,19 +119,20 @@ a {
     font-weight: lighter;
     font-size: 8pt;
     color: black;
-    position: relative;
-    left: 1%;
-    top: 70%;
-}
-/*   
-.background {
-    
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100%;
-    background-color: white;
-    
-   
-}*/
+    right: 15px;
+    top: 2%;
+    float: left;
+}
+
+.contact {
+    font-family: "gibson";
+    font-weight: lighter;
+    font-size: 8pt;
+    color: black;
+    position: fixed;
+    right: 105px;
+    top: 2%;
+    float: left;
+}
+
