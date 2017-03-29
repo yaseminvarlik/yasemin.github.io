@@ -1,6 +1,7 @@
 
 
 html, body { width: 100%; height: 100%; overflow-y: none;}
+@font-face { font-family: "gibson"; src: url("../fonts/ctgl.otf"); }
 
 body {
     background-color: white;
@@ -128,7 +129,7 @@ p {
     font-size: 8pt;
     color: black;
     position: fixed;
-    left: 0%;
+    left: 1%;
     top: 66%;
 }
 
@@ -138,7 +139,7 @@ p {
     font-size: 8pt;
     color: black;
     position: fixed;
-    left: 0%;
+    left: 1%;
     top: 70%;
 }
 
