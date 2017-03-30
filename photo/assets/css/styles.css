@@ -1,6 +1,6 @@
 
 
-html, body { width: 100%; height: 100%; overflow-y: none;}
+html, body { width: 100%; height: 100%; }
 @font-face { font-family: "gibson"; src: url("../fonts/ctgl.otf"); }
 
 body {
@@ -41,6 +41,38 @@ p {
 }
 
 
+.five-vertical img {
+	position: absolute;
+	top: 120%;
+	left: 25%;
+	width: 21%;
+	height: 52%;
+}
+.six-vertical img {
+	position: absolute;
+	top: 120%;
+	left: 52%;
+	width: 21%;
+	height: 52%;
+}
+
+.three-vertical img {
+	position: absolute;
+	top: 64%;
+	left: 52%;
+	width: 21%;
+	height: 52%;
+}
+
+.four-vertical img {
+	position: absolute;
+	top: 64%;
+	left: 25%;
+	width: 21%;
+	height: 52%;
+}
+
+
 .one img{
 	position: absolute;
 	top: 30%;
@@ -49,16 +81,13 @@ p {
 	height: 30%;
 }
 
-
-.two img {
+.two img{
 	position: absolute;
 	top: 30%;
 	left: 50%;
 	width: 25%;
 	height: 30%;
 }
-
-
 .three img {
 	position: absolute;
 	top: 64%;
@@ -94,8 +123,28 @@ p {
 	background-color: black;
 	width: 25%;
 	height: 30%;
+	
+}
+
+.sevenfashion img{
+	position: absolute;
+	top: 178%;
+	left: 50%;
+	background-color: black;
+	width: 25%;
+	height: 30%;
+}
+
+.eightfashion img{
+	position: absolute;
+	top: 178%;
+	left: 23%;
+	background-color: black;
+	width: 25%;
+	height: 30%;
 	margin-bottom: 50px;
 }
+
 
 
 .sidebar {
