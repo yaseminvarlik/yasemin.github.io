@@ -103,6 +103,18 @@ a {
      left: 0;
 }
 
+/*GRAPHICDESIGN*/
+.graphicphoto img{
+    width: 150px;
+    height: 200px;
+    position: absolute;
+     margin: auto;
+     top: -300px;
+     right: 0;
+     bottom: 0;
+     left: 0;
+}
+
 .sidebar {
     font-family: "gibson";
     font-weight: lighter;
