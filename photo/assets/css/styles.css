@@ -45,14 +45,14 @@ p {
 	position: absolute;
 	top: 120%;
 	left: 25%;
-	width: 21%;
+	width: 20%;
 	height: 52%;
 }
 .six-vertical img {
 	position: absolute;
 	top: 120%;
 	left: 52%;
-	width: 21%;
+	width: 20%;
 	height: 52%;
 }
 
@@ -60,7 +60,7 @@ p {
 	position: absolute;
 	top: 64%;
 	left: 52%;
-	width: 21%;
+	width: 20%;
 	height: 52%;
 }
 
@@ -68,7 +68,7 @@ p {
 	position: absolute;
 	top: 64%;
 	left: 25%;
-	width: 21%;
+	width: 20%;
 	height: 52%;
 }
 
@@ -126,6 +126,87 @@ p {
 	margin-bottom: 50px;
 	
 }
+
+/*DOCUMENTARY*/
+.one_document img {
+	position: absolute;
+	top: 40%;
+	left: 23%;
+	width: 25%;
+	height: 30%;
+}
+
+.two_document img {
+	position: absolute;
+	top: 30%;
+	left: 52%;
+	width: 23%;
+	height: 57%;
+}
+
+.three_document img {
+	position: absolute;
+	top: 90%;
+	left: 23%;
+	background-color: black;
+	width: 25%;
+	height: 30%;
+}
+
+.four_document img {
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	background-color: black;
+	width: 25%;
+	height: 30%;
+}
+
+.five_document img {
+	position: absolute;
+	top: 123%;
+	left: 23%;
+	background-color: black;
+	width: 25%;
+	height: 30%;
+}
+
+
+.six_document img {
+	position: absolute;
+	top: 123%;
+	left: 50%;
+	background-color: black;
+	width: 25%;
+	height: 30%;
+	margin-bottom: 50px;
+	
+}
+
+.seven img {
+	position: absolute;
+	top: 157%;
+	left: 23%;
+	background-color: black;
+	width: 25%;
+	height: 60%;
+	margin-bottom: 50px;
+	
+}
+
+.eight img {
+	position: absolute;
+	top: 157%;
+	left: 50%;
+	background-color: black;
+	width: 25%;
+	height: 30%;
+	margin-bottom: 50px;
+	
+}
+/*
+FASHION*/
+
 
 .sevenfashion img{
 	position: absolute;
