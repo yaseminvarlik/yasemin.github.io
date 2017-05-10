@@ -192,4 +192,14 @@ a {
     bottom: 0;
 }
 
+.square {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    position: fixed;
+    top: 2%;
+    left: 1%;
+    cursor: pointer;
+}
+
 
