@@ -227,6 +227,150 @@ FASHION*/
 	margin-bottom: 50px;
 }
 
+/*DIVISION*/
+
+.one_d img {
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	width: 49%;
+	height: 65%;
+	transform: translate(-50%);
+}
+
+.two_d img {
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	width: 49%;
+	height: 65%;
+	transform: translate(-50%);
+}
+
+.three_d img {
+	position: absolute;
+	top: 120%;
+	left: 50%;
+	width: 49%;
+	height: 65%;
+	transform: translate(-50%);
+}
+
+.four_d img {
+	position: absolute;
+	top: 165%;
+	left: 50%;
+	width: 49%;
+	height: 65%;
+	transform: translate(-50%);
+}
+.five_d img {
+	position: absolute;
+	top: 215%;
+	left: 50%;
+	width: 49%;
+	height: 65%;
+	transform: translate(-50%);
+}
+
+.six_d img {
+	position: absolute;
+	top: 260%;
+	left: 50%;
+	width: 49%;
+	height: 65%;
+	transform: translate(-50%);
+}
+.seven_d img {
+	position: absolute;
+	top: 310%;
+	left: 50%;
+	width: 49%;
+	height: 65%;
+	transform: translate(-50%);
+}
+.eight_d img {
+	position: absolute;
+	top: 355%;
+	left: 50%;
+	width: 49%;
+	height: 65%;
+	transform: translate(-50%);
+}
+.nine_d img {
+	position: absolute;
+	top: 402%;
+	left: 50%;
+	width: 49%;
+	height: 65%;
+	transform: translate(-50%);
+}
+.ten_d img {
+	position: absolute;
+	top: 455%;
+	left: 50%;
+	width: 49%;
+	height: 65%;
+	transform: translate(-50%);
+}
+.eleven_d img {
+	position: absolute;
+	top: 505%;
+	left: 50%;
+	width: 49%;
+	height: 65%;
+	transform: translate(-50%);
+}
+
+.twelve_d img {
+	position: absolute;
+	top: 550%;
+	left: 50%;
+	width: 49%;
+	height: 65%;
+	transform: translate(-50%);
+}
+.thirteen_d img {
+	position: absolute;
+	top: 600%;
+	left: 50%;
+	width: 49%;
+	height: 65%;
+	transform: translate(-50%);
+}
+.fourteen_d img {
+	position: absolute;
+	top: 650%;
+	left: 50%;
+	width: 49%;
+	height: 65%;
+	transform: translate(-50%);
+}
+.fifteen_d img {
+	position: absolute;
+	top: 700%;
+	left: 50%;
+	width: 49%;
+	height: 65%;
+	transform: translate(-50%);
+}
+.sixteen_d img {
+	position: absolute;
+	top: 750%;
+	left: 50%;
+	width: 49%;
+	height: 65%;
+	transform: translate(-50%);
+}
+
+.seventeen_d img {
+	position: absolute;
+	top: 800%;
+	left: 50%;
+	width: 49%;
+	height: 65%;
+	transform: translate(-50%);
+}
 
 
 .sidebar {
