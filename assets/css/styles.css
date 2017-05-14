@@ -117,7 +117,7 @@ a {
 }
 
 .sidebar {
-    font-family: "gibson";
+    font-family: "gibson", "helvetica", "avenir";
     font-weight: lighter;
     font-size: 8pt;
     color: black;
@@ -128,7 +128,7 @@ a {
 }
 
 .side-bar {
-    font-family: "gibson";
+    font-family: "gibson", "helvetica", "avenir";
     font-weight: lighter;
     font-size: 8pt;
     color: black;
@@ -139,7 +139,7 @@ a {
 }
 
 .contact {
-    font-family: "gibson";
+    font-family: "gibson", "helvetica", "avenir";
     font-weight: lighter;
     font-size: 8pt;
     color: black;
@@ -165,7 +165,7 @@ a {
    
     font-size: 8pt;
     font-weight: lighter;
-    font-family: "gibson";
+    font-family: "gibson", "helvetica", "avenir";
     color: black;
     line-height: 13px;
 }
@@ -174,7 +174,7 @@ a {
     
     font-size: 8pt;
     font-weight: lighter;
-    font-family: "gibson";
+    font-family: "gibson", "helvetica", "avenir";
     color: black;
     line-height: 13px;
 
