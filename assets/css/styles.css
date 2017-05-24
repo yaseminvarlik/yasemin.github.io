@@ -116,12 +116,13 @@ a {
      left: 0;
 }
 
+
+
 .sidebar {
     font-family: "gibson", "helvetica", "avenir";
     font-weight: lighter;
     font-size: 8pt;
     color: black;
-    float: left;
     position: fixed;
     right: 7.6%;
     top: 2%;
@@ -135,7 +136,7 @@ a {
     position: fixed;
     right: 2%;
     top: 2%;
-    float: left;
+    
 }
 
 .contact {
@@ -146,14 +147,14 @@ a {
     position: fixed;
     right: 10%;
     top: 2%;
-    float: left;
+    
 }
 
 .text{
     position: fixed;
     width: 300px;
     height: 200px;
-    top: 358px;
+    top: 49%;
     right: 0;
     left: 37%;
     bottom: 0;
@@ -163,20 +164,20 @@ a {
 
 .about {
    
-    font-size: 8pt;
+    font-size: 10pt;
     font-weight: lighter;
     font-family: "gibson", "helvetica", "avenir";
     color: black;
-    line-height: 13px;
+    line-height: 15px;
 }
 
 .phone, .email {
     
-    font-size: 8pt;
+    font-size: 10pt;
     font-weight: lighter;
     font-family: "gibson", "helvetica", "avenir";
     color: black;
-    line-height: 13px;
+    line-height: 15px;
 
 }
 
@@ -202,4 +203,13 @@ a {
     cursor: pointer;
 }
 
-
+.back {
+    font-family: "gibson", "helvetica", "avenir";
+    font-weight: lighter;
+    font-size: 8pt;
+    color: black;
+    position: fixed;
+    top: 1%;
+    left: 3%;
+    opacity: 0;
+}
