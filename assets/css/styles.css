@@ -117,15 +117,25 @@ a {
 }
 
 
+.left-side{
+    width: 200px;
+    height: 30px;
+    position: fixed;
+    right: -2%;
+    top: 2%;
+}
 
+.side{
+    display: inline-block;
+    margin-right: 20px;
+}
 .sidebar {
     font-family: "gibson", "helvetica", "avenir";
     font-weight: lighter;
     font-size: 8pt;
     color: black;
-    position: fixed;
-    right: 7.6%;
-    top: 2%;
+    position: relative;
+   
 }
 
 .side-bar {
@@ -133,9 +143,8 @@ a {
     font-weight: lighter;
     font-size: 8pt;
     color: black;
-    position: fixed;
-    right: 2%;
-    top: 2%;
+    position: relative;
+  
     
 }
 
@@ -144,9 +153,8 @@ a {
     font-weight: lighter;
     font-size: 8pt;
     color: black;
-    position: fixed;
-    right: 10%;
-    top: 2%;
+    position: relative;
+    
     
 }
 
