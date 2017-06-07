@@ -415,8 +415,6 @@ FASHION*/
 }
 
 
-
-
 .square {
     width: 10px;
     height: 10px;
@@ -430,10 +428,7 @@ FASHION*/
 .footer p {
     font-size: 6pt;
     text-align: center;
-    
-    bottom: 10px;
-    
-   
+    bottom: 10px;  
 
 }
 

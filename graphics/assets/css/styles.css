@@ -46,7 +46,7 @@ p {
 	top: 30%;
 	left: 25%;
 	width: 21%;
-	height: 52%;
+	height: auto;
 
 }
 .magtwo img {
@@ -54,7 +54,7 @@ p {
 	top: 30%;
 	left: 52%;
 	width: 21%;
-	height: 52%;
+	height: auto;
 }
 
 .magthree img {
@@ -63,7 +63,7 @@ p {
 	left: 23%;
 	background-color: black;
 	width: 25%;
-	height: 30%;
+	height: auto;
 }
 
 .magfour img {
@@ -72,7 +72,7 @@ p {
 	left: 50%;
 	background-color: black;
 	width: 25%;
-	height: 30%;
+	height: auto;
 }
 	
 .magfive img {
@@ -81,7 +81,7 @@ p {
 	left: 23%;
 	background-color: black;
 	width: 25%;
-	height: 30%;
+	height: auto;
 }
 
 
@@ -91,7 +91,7 @@ p {
 	left: 50%;
 	background-color: black;
 	width: 25%;
-	height: 30%;
+	height: auto;
 	
 	
 }
@@ -102,7 +102,7 @@ p {
 	left: 23%;
 	background-color: black;
 	width: 25%;
-	height: 30%;
+	height: auto;
 	margin-bottom: 50px;
 }
 
@@ -111,15 +111,15 @@ p {
 	top: 30%;
 	left: 23%;
 	width: 15%;
-	height: 27%;
+	height: auto;
 }
 
 .pusix img{
 	position: absolute;
-	top: 98%;
+	top: 95%;
 	left: 55%;
 	width: 15%;
-	height: 27%;
+	height: auto;
 	
 }
 .finalpu {
@@ -137,7 +137,7 @@ p {
 	top: 30%;
 	left: 23%;
 	width: 25%;
-	height: 30%;
+	height: auto;
 }
 
 .two img{
@@ -145,7 +145,7 @@ p {
 	top: 30%;
 	left: 50%;
 	width: 25%;
-	height: 30%;
+	height: auto;
 }
 .three img {
 	position: absolute;
@@ -153,7 +153,7 @@ p {
 	left: 23%;
 	background-color: black;
 	width: 25%;
-	height: 30%;
+	height: auto;
 }
 
 .four img {
@@ -162,7 +162,7 @@ p {
 	left: 50%;
 	background-color: black;
 	width: 25%;
-	height: 30%;
+	height: auto;
 }
 	
 .five img {
@@ -171,7 +171,7 @@ p {
 	left: 23%;
 	background-color: black;
 	width: 25%;
-	height: 30%;
+	height: auto;
 }
 
 
@@ -181,7 +181,7 @@ p {
 	left: 50%;
 	background-color: black;
 	width: 25%;
-	height: 30%;
+	height: auto;
 	margin-bottom: 50px;
 	
 }
