@@ -40,6 +40,94 @@ p {
 	margin-bottom: 40px;
 }
 
+/*METAMORPHOSIS*/
+.metone img {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%);
+	width: 21%;
+	height: auto;
+}
+.mettwo img {
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%);
+	width: 21%;
+	height: auto;
+}
+.metthree img {
+	position: absolute;
+	top: 170%;
+	left: 50%;
+	transform: translate(-50%);
+	width: 21%;
+	height: auto;
+}
+
+/*TIMEISTHEONLYCURE*/
+.timeone iframe {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%);
+	width: 60%;
+	height: 60%;
+}
+
+.timetwo img {
+	position: absolute;
+	top: 120%;
+	left: 50%;
+	transform: translate(-50%);
+	width: 60%;
+	height: auto;
+	margin-bottom: 150px;
+}
+
+/*RUSSIANAVANTGARDE*/
+
+.rusone img {
+	position: absolute;
+	top: 30%;
+	left: 24%;
+	width: 23%;
+	height: auto;
+}
+.rustwo img {
+	position: absolute;
+	top: 30%;
+	left: 51%;
+	width: auto;
+	height: 59%;
+}
+.rusthree img {
+	position: absolute;
+	top: 120%;
+	left: 50%;
+	width: 50%;
+	transform: translate(-50%);
+	height: auto;
+}
+.rusfour img {
+	position: absolute;
+	top: 150%;
+	left: 50%;
+	width: 50%;
+	transform: translate(-50%);
+	height: auto;
+}
+.rusfive img {
+	position: absolute;
+	top: 200%;
+	left: 50%;
+	width: 50%;
+	transform: translate(-50%);
+	height: auto;
+	margin-bottom: 150px;
+}
+
 
 .magone img {
 	position: absolute;
@@ -258,5 +346,26 @@ p {
     
    
 
+}
+
+.square {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    position: fixed;
+    top: 2%;
+    left: 1%;
+    cursor: pointer;
+}
+
+.back {
+    font-family: "gibson", "helvetica", "avenir";
+    font-weight: lighter;
+    font-size: 8pt;
+    color: black;
+    position: fixed;
+    top: 1%;
+    left: 3%;
+    opacity: 0;
 }
 
