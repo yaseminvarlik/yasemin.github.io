@@ -142,7 +142,7 @@ p {
 }
 
 .pleft {
-	position: fixed;
+	position: absolute;
 	top: 25%;
 	left: 50%;
 	transform: translate(-50%);
@@ -155,7 +155,7 @@ p {
 
 .pleft ul li {
 	margin: 0 auto;
-	width:100%;
+	width: 100%;
 	display: table;
 	padding: 5vmin 5vmin 5vmin 5vmin;
 }
