@@ -416,14 +416,14 @@ FASHION*/
 
 
 .left-side{
-    width: 200px;
+    width: 160px;
     height: 30px;
     position: fixed;
-    right: -2%;
+    right: 2px;
     top: 2%;
 }
 
-.side{
+.side {
     display: inline-block;
     margin-right: 20px;
 }
@@ -452,6 +452,7 @@ FASHION*/
     font-size: 8pt;
     color: black;
     position: relative;
+    display: inline-block;
     
     
 }
