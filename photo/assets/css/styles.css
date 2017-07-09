@@ -144,6 +144,8 @@ p {
 .pleft {
 	position: fixed;
 	top: 25%;
+	left: 50%;
+	transform: translate(-50%);
 	float: left;
 	width: 67%;
 	height: 100%;
