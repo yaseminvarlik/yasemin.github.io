@@ -43,7 +43,7 @@ p {
 }
 
 
-.five-vertical img {
+/*.five-vertical img {
 	position: absolute;
 	top: 120%;
 	left: 25%;
@@ -127,7 +127,7 @@ p {
 	height: auto;
 	margin-bottom: 50px;
 	
-}
+}*/
 
 /*DOCUMENTARY*/
 .pcolumns{
@@ -142,7 +142,7 @@ p {
 }
 
 .pleft {
-	position: absolute;
+	position: fixed;
 	top: 25%;
 	float: left;
 	width: 67%;
@@ -223,7 +223,7 @@ p {
 	
 }*/
 
-.seven img {
+/*.seven img {
 	position: absolute;
 	top: 161%;
 	left: 23%;
@@ -248,7 +248,7 @@ p {
 FASHION*/
 
 
-.sevenfashion img{
+/*.sevenfashion img{
 	position: absolute;
 	top: 178%;
 	left: 50%;
@@ -269,7 +269,7 @@ FASHION*/
 
 /*DIVISION*/
 
-.one_d img {
+/*.one_d img {
 	position: absolute;
 	top: 25%;
 	left: 50%;
@@ -410,7 +410,7 @@ FASHION*/
 	width: 49%;
 	height: auto;
 	transform: translate(-50%);
-}
+}*/
 
 
 .left-side{
