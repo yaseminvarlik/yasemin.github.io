@@ -3,10 +3,12 @@
 html, body { width: 100%; height: 100%; }
 @font-face { font-family: "gibson"; src: url("../fonts/ctgl.otf"); }
 
+
 body {
    margin: 0;
    padding: 0;
    font-size: 0;
+   
 }
 ul {
 	list-style-type: none;
@@ -128,7 +130,45 @@ p {
 }
 
 /*DOCUMENTARY*/
-.one_document img {
+.pcolumns{
+	float:left;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pleft {
+	position: absolute;
+	top: 25%;
+	float: left;
+	width: 67%;
+	height: 100%;
+	overflow:scroll;
+	margin: 0 auto;
+}
+
+.pleft ul li {
+	margin: 0 auto;
+	width:100%;
+	display: table;
+	padding: 5vmin 5vmin 5vmin 5vmin;
+}
+.pleft ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 60px 20px 0px 0px;
+	padding-top: 1%;
+	margin: 0 auto;
+	width:100%;
+}
+
+/*.one_document img {
 	position: absolute;
 	top: 40%;
 	left: 23%;
@@ -181,7 +221,7 @@ p {
 	height: auto;
 	margin-bottom: 50px;
 	
-}
+}*/
 
 .seven img {
 	position: absolute;
@@ -431,4 +471,8 @@ FASHION*/
     bottom: 10px;  
 
 }
+
+
+
+
 
