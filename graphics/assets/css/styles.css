@@ -277,10 +277,10 @@ p {
 
 
 .left-side{
-    width: 160px;
+    width: 170px;
     height: 30px;
     position: fixed;
-    right: 2px;
+    right: 10px;
     top: 2%;
 }
 
