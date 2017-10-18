@@ -7,22 +7,70 @@ body {
 	font-size: 0;
 	margin: 0;
 	padding: 0;
-	
+
 }
 
-div {
+.gif {
+	
+  background-image:url(../img/starttype.gif);
+  background-size: cover;
+  width: 800px;
+  height: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 200;
+}
+.refresh p {
+	font-family: "gibson";
+	font-size: 12pt;
+	position: fixed;
+	top: 10%;
+	left: 5%;
+	cursor: pointer;
+}
+
+.spot {
 	display: inline-block;
-	
+	position: relative;
+	bottom: 10%;
+	left: 0;
 }
 
-.lettera, .letterb, .letterc, .letterd, .lettere, .letterf, .letterg, .letterh, .letteri, .letterj, .letterk, .letterl, .letterm, .lettern, .lettero, .letterp, .letterq, .letterr, .letters, .lettert, .letteru, .letterv, .letterw, .letterx, .lettery, .letterz {
-	width: 150px;
-	height: 220px;
-	/*background-color: gray;*/
-	overflow: hidden;
-	position: relative;
-	margin: 20px 20px 60px 60px;
+
+.stage {
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 0%;
+	}
+
+
+#clock {
+	font-size: 100px;
+	font-family: "gibson";
+	position: fixed;
+	top: 5%;
+	right: 33%;
+
+	}
+
+
+.all_letters{
+	display: none;
+
 }
+
+.letter-outer {
+	width: 12vw;
+	height: 30vh;
+	margin: -20px 20px -230px 60px;
+	position: relative;
+
+}
+
+
 
 .a_one {
 	width: 0;
@@ -30,6 +78,10 @@ div {
 	border-left: 75px solid transparent;
 	border-right: 75px solid transparent;
 	border-bottom: 130px solid black;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	
 }
 
 .b_one {
@@ -38,6 +90,9 @@ div {
  	border-radius: 0 75px 75px 0;
  	margin-left: 60px;
  	background-color: black;
+ 	position: absolute;
+ 	top:0;
+ 	left: 5px; 
 }
 
 .b_two {
@@ -46,6 +101,10 @@ div {
  	border-radius: 0 57px 57px 0;
  	margin: 5px 0 0 60px;
  	background-color: black;
+ 	position: absolute;
+ 	bottom: 0;
+ 	left: 5px;
+ 	
 }
 
 .c_one {
@@ -54,6 +113,9 @@ div {
  	border-radius: 120px 0 0 120px;
  	background-color: black;
  	margin: 50px 0 0 35px;
+ 	position: absolute;
+ 	top:0;
+ 	left: 0;
 }
 
 .d_one {
@@ -62,21 +124,31 @@ div {
  	border-radius: 0 57px 57px 0;
  	margin: 50px 0 0 35px;
  	background-color: black;
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	
 }
 
 .e_one {
 	width: 130px;
-	height: 80px;
+	height: 90px;
 	background-color: black;
 	margin: 20px 20px 0 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
 
 }
 
 .e_two {
 	width: 130px;
-	height: 80px;
+	height: 90px;
 	background-color: black;
 	margin: 20px 0 0 20px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
 
 .f_one {
@@ -84,6 +156,9 @@ div {
 	height: 80px;
 	background-color: black;
 	margin: 20px 0 0 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 .f_two {
@@ -91,6 +166,9 @@ div {
 	height: 100px;
 	background-color: black;
 	margin: 20px 0 0 20px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
 
 .g_one{
@@ -99,6 +177,9 @@ div {
  	border-radius: 100px 100px 0 0;
  	background-color: black;
  	margin: 0 0 10px 0;
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
 }
 
 .g_two {
@@ -106,20 +187,36 @@ div {
 	height: 100px;
 	background-color: black;
 	margin: 10px 0 0 0;
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
 
-.h_one, .h_two {
+.h_one {
 	width: 110px;
 	height: 100px;
 	background-color: black;
-	margin: 0 20px 20px 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+.h_two {
+	width: 110px;
+	height: 100px;
+	background-color: black;
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
 
 .i_one {
 	width: 30px;
 	height: 220px;
 	background-color: black;
-	margin: 0 60px 0 60px;
+	position: absolute;
+	top: 0;
+	left: 50px;
 }
 
 .j_one {
@@ -128,6 +225,8 @@ div {
  	border-radius: 0 0 100px 100px;
  	background-color: black;
  	margin: 170px 0 0 40px;
+ 	position: absolute;
+ 	bottom: 0;
 }
 
 
@@ -137,8 +236,10 @@ div {
 	border-right: 75px solid black;
 	border-bottom: 110px solid transparent;
 	border-top: 110px solid transparent;
-	margin-right: -20px;
-	margin-left: 75px;
+	margin-left: 55px;
+	position: absolute;
+	top: 0;
+	right: 20pxw;
 }
 
 .k_two{
@@ -148,6 +249,9 @@ div {
 	border-right: 110px solid transparent;
 	border-top: 150px solid transparent;
 	margin-top: -220px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
 	
 
 }
@@ -157,8 +261,10 @@ div {
 	border-left: 105px solid black;
 	border-right: 110px solid transparent;
 	border-bottom: 150px solid transparent;
-	margin-top: -220px;
 	margin-bottom: 220px;	
+	position: absolute;
+	top: 0;
+	left: 0;
 	
 }
 
@@ -167,6 +273,9 @@ div {
 	height: 220px;
 	background-color: black;
 	margin: 0 45px 0 45px;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 .m_one {
@@ -175,6 +284,9 @@ div {
 	border-left: 70px solid black;
 	border-right: 75px solid transparent;
 	border-top: 220px solid transparent;
+	position: absolute;
+	bottom:0;
+	left: 0;
 
 }
 
@@ -185,6 +297,9 @@ div {
 	border-right: 75px solid black;
 	border-top: 220px solid transparent;
 	margin: -220px 0 0 5px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
 	
 }
 
@@ -194,6 +309,9 @@ div {
 	border-left: 125px solid black;
 	border-right: 125px solid transparent;
 	border-top: 220px solid transparent;
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
 
 .n_two{
@@ -204,6 +322,9 @@ div {
 	border-bottom: 220px solid transparent;
 	margin-top:-220px;
 	margin-left: -100px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
 }
 
 .o_one{
@@ -212,6 +333,8 @@ div {
 	background-color: black;
 	border-radius: 50px;
 	margin: 60px 0 0 25px;
+	position: absolute;
+	top:20;
 }
 
 .p_one {
@@ -221,6 +344,9 @@ div {
  	margin-left: 80px;
  	margin-top: 20px;
  	background-color: black;
+ 	position: absolute;
+ 	top: 0;
+ 	right: 0;
 }
 
 .q_one {
@@ -228,7 +354,9 @@ div {
 	height: 100px;
 	background-color: black;
 	border-radius: 50px;
-	margin: 90px 0 0 25px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
 
 .q_two {
@@ -237,7 +365,9 @@ div {
 	border-left: 70px solid transparent;
 	border-right: 75px solid black;
 	border-top: 50px solid transparent;
-	margin: -20px 0 0 5px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
 }
 
 .r_one{
@@ -246,6 +376,9 @@ div {
  	border-radius: 0 75px 75px 0;
  	margin-left: 45px;
  	background-color: black;
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
 }
 
 .r_two {
@@ -255,24 +388,29 @@ div {
 	border-right: 75px solid transparent;
 	border-top: 130px solid transparent;
 	margin-left: 45px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
 
 .s_one {
 	height:90px;
  	width:50px;
  	border-radius: 0 75px 75px 0;
- 	margin-left: 75px;
- 	margin-top: 115px;
  	background-color: black;
+ 	position: absolute;
+ 	bottom: 0;
+ 	right: 5px;
 }
 
 .s_two {
 	height:90px;
  	width:50px;
  	border-radius: 75px 0 0 75px;
- 	margin-left: -100px;
- 	margin-bottom: 100px;
  	background-color: black;
+ 	position: absolute;
+ 	top: 15px;
+ 	left: 35px;
 }
 
 .t_one {
@@ -281,12 +419,18 @@ div {
 	background-color: black;
 	margin-top: 20px;
 	margin-right: 20px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
 
 .t_two{
 	width: 65px;
 	height: 200px;
 	background-color: black;
+	position: absolute;
+	bottom: 0;
+	right: 0;
 	
 }
 .u_one {
@@ -295,6 +439,9 @@ div {
  	border-radius: 0 0 100px 100px;
  	background-color: black;
  	margin: 120px 0 0 0;
+ 	position: absolute;
+ 	bottom: 0;
+ 	left: 0;
 }
 
 .v_one {
@@ -303,6 +450,9 @@ div {
 	border-left: 75px solid transparent;
 	border-right: 75px solid transparent;
 	border-top: 220px solid black;
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
 
 .w_one{
@@ -311,6 +461,9 @@ div {
 	border-left: 25px solid transparent;
 	border-right: 25px solid transparent;
 	border-top: 220px solid black;
+	position: absolute;
+	top: 0;
+	left: 5px;
 }
 
 .w_two{
@@ -319,6 +472,9 @@ div {
 	border-left: 25px solid transparent;
 	border-right: 25px solid transparent;
 	border-bottom: 220px solid black;
+	position: absolute;
+	bottom: 0;
+	left: 50px;
 }
 .w_three{
 	width: 0;
@@ -326,6 +482,9 @@ div {
 	border-left: 25px solid transparent;
 	border-right: 25px solid transparent;
 	border-top: 220px solid black;
+	position: absolute;
+	top: 0;
+	right: 5px;
 }
 
 .x_one{
@@ -334,6 +493,9 @@ div {
 	border-left: 75px solid transparent;
 	border-right: 75px solid transparent;
 	border-top: 110px solid black;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 .x_two{
 	width: 0;
@@ -341,6 +503,9 @@ div {
 	border-left: 75px solid transparent;
 	border-right: 75px solid transparent;
 	border-bottom:110px solid black;
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
 
 .y_one{
@@ -349,6 +514,9 @@ div {
 	border-left: 75px solid transparent;
 	border-right: 75px solid transparent;
 	border-top: 130px solid black;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 
@@ -360,6 +528,7 @@ div {
 	border-top: 220px solid transparent;
 	margin-bottom: -220px;
 	margin-left: -100px;
+	position: absolute;
 }
 
 .z_two{
@@ -368,7 +537,88 @@ div {
 	border-left: 125px solid black;
 	border-right: 125px solid transparent;
 	border-bottom: 220px solid transparent;
+	position: absolute;
 	
 }
+
+.space {
+
+	width: 180px;
+	height: 120px;
+	font-size: 0;
+    display: inline-block;
+    margin: 1px;
+}
+
+
+.vertical {
+	vertical-align: top;
+}
+
+/*.shapes {
+	opacity: 0;
+}*/
+
+.square {
+	width: 650px;
+	height: 650px;
+	border: 10pt solid black;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+}
+
+.circle {
+	border-radius: 50%;
+	width: 650px;
+	height: 650px;
+	border: 10pt solid black;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+
+}
+
+.triangle {
+	width: 0;
+	height: 0;
+	border-left: 325px solid transparent;
+	border-right: 325px solid transparent;
+	border-bottom: 650px solid black ;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+}
+.innertriangle {
+	width: 0;
+	height: 0;
+	border-left: 300px solid transparent;
+	border-right: 300px solid transparent;
+	border-bottom: 610px solid white ;
+	position: fixed;
+	top: 25px;
+	left: -300px;
+}
+
+
+
+/*.spot {
+	display: inline-block;
+	width: 180px;
+	margin-right: 20px;
+	height: 220px;
+	position: relative;
+}*/
+
+
+
+
+
 
 
