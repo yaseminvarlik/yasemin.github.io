@@ -1,3 +1,7 @@
+@font-face {
+	font-family: 'authenticSans';
+	src: url('./assets/fonts/AUTHENTIC-Sans.otf'); 
+}
 body {
 	position: fixed;
 	top: 50%;
