@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body { width: 100%; height: 100%; }
+@font-face { font-family: "verdana"; src: url("./fonts/Verdana.ttf"); 
+			font-family: "verdana_bold"; src: url("./fonts/verdana_b.ttf");
+			}
+
+
+a {
+	color: black;
+}
+
+a:hover {
+	/*text-decoration: line-through;*/
+	background-color: black;
+	color: white;
+}
+
+.box {
+	width: 900px;
+}
+
+
+
+.first {
+    font-family: "verdana_bold";
+    font-size: 12pt;
+    font-weight: bolder;
+    position: absolute;
+    left: 5%;
+    top: 2%;
+
+}
+
+.second {
+	font-family: "verdana_bold";
+    font-size: 12pt;
+    font-weight: bolder;
+    position: absolute;
+    left: 80%;
+
+}
+.scroll{
+	font-family: "verdana_bold";
+    font-size: 70pt;
+    width: 1200px;
+    font-weight: bolder;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+
+}
+
+
+
+
+.mainbody {
+	height: 30%;
+	width: 80%;
+	position: relative;
+	margin-bottom: 200px;
+	padding-top: 150px;
+	z-index: 10;
+	/*position: absolute;
+	top: 35%;
+	left: 50%;*/
+	/*transform: translate(-50%,-50%);*/
+
+}
+
+.copy {
+	position: relative;
+	font-family: "verdana";
+    font-size: 60pt;
+    position: absolute;
+	left: 5%;
+
+    
+}
+
+
+.java a {
+	margin-right: 10px;
+    display: inline-block;
+}
+.same {
+	font-family: "verdana";
+	font-size: 36pt;
+	font-weight: "lighter";
+	width: 70%;
+	margin-top: 600px;
+	position: absolute;
+	left: 5%;
+
+}
+
+
+
+.pdf {
+	font-family: "verdana";
+	font-weight: lighter;
+	font-size: 10pt;
+	position: fixed;
+	top: 45%;
+	left: 0;
+	z-index: 100;
+	transform: rotate(270deg);
+}
+
+.top {
+	font-family: "verdana";
+	font-weight: lighter;
+	font-size: 10pt;
+	position: fixed;
+	top: 60%;
+	left:1%;
+	z-index: 100;
+	transform: rotate(270deg);
+}
+
+.image {
+	position: absolute;
+	left: 90%;
+}
+.sidebar {
+	position: relative;
+
+}
+.margin {
+	margin-top: 800px;
+}
+
+
+/*.footer {
+	height: 5px;
+	width: 50px;
+	position: fixed;
+	bottom: 3%;
+	left: 50%;
+	transform: translate(-50%);
+}
+.copyright{
+	font-family: "verdana";
+    font-size: 8pt;
+}*/
