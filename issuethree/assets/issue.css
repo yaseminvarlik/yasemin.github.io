@@ -22,7 +22,9 @@ a:hover {
 	width: 900px;
 }
 
+.java {
 
+}
 
 .first {
     font-family: "verdana_bold";
@@ -80,11 +82,22 @@ a:hover {
     
 }
 
-
-.java a {
-	margin-right: 10px;
-    display: inline-block;
+/*.java {
+  animation-duration: 10s;
+  animation-name: slidein;
 }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-right:0%;
+    width: 500%;
+  
+}*/
 .same {
 	font-family: "verdana";
 	font-size: 36pt;
