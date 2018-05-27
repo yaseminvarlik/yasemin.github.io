@@ -274,50 +274,6 @@ p {
 	
 }
 
-
-
-.left-side{
-    width: 170px;
-    height: 30px;
-    position: fixed;
-    right: 10px;
-    top: 2%;
-}
-
-.side {
-    display: inline-block;
-    margin-right: 20px;
-}
-.sidebar {
-    font-family: "gibson", "helvetica", "avenir";
-    font-weight: lighter;
-    font-size: 8pt;
-    color: black;
-    position: relative;
-   
-}
-
-.side-bar {
-    font-family: "gibson", "helvetica", "avenir";
-    font-weight: lighter;
-    font-size: 8pt;
-    color: black;
-    position: relative;
-  
-    
-}
-
-.contact {
-    font-family: "gibson", "helvetica", "avenir";
-    font-weight: lighter;
-    font-size: 8pt;
-    color: black;
-    position: relative;
-    display: inline-block;
-    
-    
-}
-
 .final {
 	text-decoration: none;
 	font-size: 8pt;
@@ -339,19 +295,52 @@ p {
     margin-bottom: 50px;
 }
 
-.footer p {
-    font-size: 6pt;
-    text-align: center;
-    
-    bottom: 10px;
-    
-   
 
+/*EXTRA*/
+
+.left-side{
+    width: 15vw;
+    position: fixed;
+    right: -3vw;
+    top: 2vh;
+}
+
+.side {
+    display: inline-block;
+    margin-right: 1vw;
+}
+.sidebar {
+    font-family: "gibson", "helvetica", "avenir";
+    font-weight: lighter;
+    font-size: 0.8vw;
+    color: black;
+    position: relative;
+   
+}
+
+.side-bar {
+    font-family: "gibson", "helvetica", "avenir";
+    font-weight: lighter;
+    font-size: 0.8vw;
+    color: black;
+
+  
+    
+}
+
+.contact {
+    font-family: "gibson", "helvetica", "avenir";
+    font-weight: lighter;
+    font-size: 0.8vw;
+    color: black;
+    position: relative;
+    display: inline-block;
+        
 }
 
 .square {
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     background-color: black;
     position: fixed;
     top: 2%;
