@@ -244,6 +244,7 @@ a {
 .about {
    position: relative;
     font-size: 1.2vw;
+    line-height: 2.5vh;
     font-weight: lighter;
     font-family: "gibson", "helvetica", "avenir";
     color: black;
