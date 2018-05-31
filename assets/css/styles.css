@@ -307,8 +307,8 @@ a {
 }
 
 .square {
-    width: 15px;
-    height: 15px;
+    width: 1vw;
+    height: 1vw;
     background-color: black;
     position: fixed;
     top: 2%;

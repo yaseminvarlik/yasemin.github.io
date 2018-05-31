@@ -51,7 +51,7 @@ p {
 }
 .mettwo img {
 	position: absolute;
-	top: 100%;
+	top: 90%;
 	left: 50%;
 	transform: translate(-50%);
 	width: 21%;
@@ -59,11 +59,12 @@ p {
 }
 .metthree img {
 	position: absolute;
-	top: 170%;
+	top: 150%;
 	left: 50%;
 	transform: translate(-50%);
 	width: 21%;
 	height: auto;
+	margin-bottom: 50px;
 }
 
 /*TIMEISTHEONLYCURE*/
@@ -78,12 +79,12 @@ p {
 
 .timetwo img {
 	position: absolute;
-	top: 120%;
+	top: 100%;
 	left: 50%;
 	transform: translate(-50%);
 	width: 60%;
 	height: auto;
-	margin-bottom: 150px;
+	margin-bottom: 50px;
 }
 
 /*RUSSIANAVANTGARDE*/
@@ -180,7 +181,7 @@ p {
 	background-color: black;
 	width: 25%;
 	height: auto;
-	
+	margin-bottom: 50px;
 	
 }
 
@@ -208,6 +209,7 @@ p {
 	left: 55%;
 	width: 15%;
 	height: auto;
+	margin-bottom: 100px;
 	
 }
 .finalpu {
@@ -383,7 +385,7 @@ p {
     left: 60%;
 }
 
-.finalspec {
+/*.finalspec {
 	text-decoration: none;
 	font-size: 8pt;
 	font-family: "gibson", "helvetica", "avenir";
@@ -392,8 +394,23 @@ p {
     top: 100%;
     left: 46%;
     margin-bottom: 50px;
+}*/
+
+.full_link {
+	position: fixed;
+	bottom:3vh;
+	left:1vw;
+	width: 20vw;
 }
 
+.finalspec {
+	font-family: "gibson", "helvetica", "avenir";
+	font-size: 0.8vw;
+	font-style: italic;
+}
+.book {
+	bottom: -5vh;
+}
 
 /*EXTRA*/
 
@@ -438,8 +455,8 @@ p {
 }
 
 .square {
-    width: 15px;
-    height: 15px;
+    width: 1vw;
+    height: 1vw;
     background-color: black;
     position: fixed;
     top: 2%;

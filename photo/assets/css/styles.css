@@ -169,10 +169,14 @@ p {
 	margin: 0 auto;
 	width:100%;
 }*/
+.life img {
+	position: relative;
+	top: -10vh;
+}
 
 .pcolumns{
 	position: relative;
-	top: 20vh;
+	top: 18vh;
 	left: 50vw;
 	transform: translate(-50%);
 }
@@ -194,11 +198,13 @@ p {
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-	padding: 60px 20px 0px 0px;
+	padding: 20px 20px 0px 0px;
 	padding-top: 1%;
 	margin: 0 auto;
 	width:100%;
 }
+
+
 /*.one_document img {
 	position: absolute;
 	top: 40%;
@@ -487,8 +493,8 @@ FASHION*/
 }
 
 .square {
-    width: 15px;
-    height: 15px;
+    width: 1vw;
+    height: 1vw;
     background-color: black;
     position: fixed;
     top: 2%;
