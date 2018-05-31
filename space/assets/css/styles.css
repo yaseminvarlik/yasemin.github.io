@@ -107,3 +107,20 @@ h1{
     position:fixed;
 
 }
+
+.full_link {
+    position: fixed;
+    bottom:3vh;
+    left:1vw;
+    width: 20vw;
+}
+
+.finalspec {
+    font-family: "gibson", "helvetica", "avenir";
+    font-size: 0.8vw;
+    font-style: italic;
+    
+}
+.book {
+    bottom: -5vh;
+}
