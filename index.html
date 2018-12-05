@@ -1,54 +1,370 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Yasemin Varlik</title>
-    <link href="assets/css/styles.css" media="all" rel="stylesheet" />
-    <link rel="shortcut icon" href="./assets/img/favy.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="assets/js/app.js"></script>
+<head>
+	<title>Yasemin Varlik</title>
+	 <link rel="shortcut icon" type="image/png" href="./assets/img/mainfav.png"/>
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style type="text/css">
 
-  </head>
-
-  <body>
-      <div class="wrapper">
-     <!--  <div class="image">
-        <img src="assets/img/websitehomepage.jpg">
-      </div> -->
-      <div class="logoname"> 
-      <div class="main">
-           <h1>YASEMIN VARLIK</h1>
-           <div class="projects">
-          <a href="graphicdesign.html"><h3 class="four">/graphic design </h3></a>
-          <a href="space/coding.html"><h3 class="two">/coding </h3></a>
-          <a href="photography.html"><h3 class="three">/photography </h3></a>
-         <!--  <a href="space/fineart.html"><h3 class="one">/fine art</h3></a> -->
-          
-       </div>  
-      </div>
-      </div>
-        </div>
-      <div class="background"></div>
+	  *{
+      margin: 0;
+      padding: 0;
+      border: 0;
     
-      <div class="left-side ">
-      <div class="sidebar side">
-        <a href="./resume/resume_03.pdf">CV</a>
-      </div>
+    }
+	body {
+		line-height: 1;
+	}
 
-      <div class="side-bar side">
-        <a href="https://www.instagram.com/yaseminvarlk/">INSTAGRAM</a>
-       </div>
-       <div class="contact">
-        <a href="./contact.html">CONTACT</a>
-       </div>
-        </div>
-      <!-- <div class="footer">
-        <p>© Yasemin Varlik</p>
-      </div> -->
-      
-    
+	div {
+		display: block;
+	}
 
-    
+	ol, ul {
+	list-style: none;
+	}
+	
+	::-moz-selection { /* Code for Firefox */
+    background: yellow;
+		}
 
-  </body>
+
+
+	::selection {
+    background: yellow;
+	}
+
+	body, html, h1, h2, a {
+		font-family: "Geneva", sans-serif;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 1.3;
+
+	}
+	body, html, h1, div, h2, a {
+		font-size: 100%;
+	}
+
+	@media all and (max-width: 1200px) {
+      body,
+      html,
+       {
+        font-size: 18px;
+      }
+    }
+
+     @media all and (max-width: 800px) {
+      body,
+      html,
+      {
+        font-size: 14px;
+      }
+    }
+
+	.information{
+		display: grid;
+		grid-column-gap: 2rem;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	@media all and (max-width: 900px) {
+      .information {
+        min-height: 30vh;
+
+      }
+    }
+
+	.yasemin, .work , .clock{
+		padding-left: 2rem;
+		margin-top: 1rem;
+	}
+	
+	/*.link_one:hover + div {
+		display: block;
+	}*/
+
+	
+	.background, .clock {
+		margin-bottom: 1rem;
+	}
+	
+	.background h1.sub_title {
+		margin-top: 0;
+		vertical-align: baseline;
+		font: inherit;
+		border: 0;
+		margin:0;
+		padding: 0;
+		
+	}
+
+	.one, .two, .three, .four, .five, .six{
+		display: none;
+	}
+
+	a {
+		text-decoration: none;
+		color: black;
+	}
+	a:hover {
+		font-style: italic;
+	}
+
+	img, .video {
+		width: 90vw;
+		height: auto;
+		margin-right: 2rem;
+		display: flex;
+		margin-bottom: 3rem;
+
+	}
+
+	.images {
+		margin-bottom: 3rem;
+
+	}
+
+	.video {
+		width: 50vw;
+		height: 55vh;
+		display: block;
+	}
+	
+	.email:hover {
+		font-weight: bold;
+		font-style: normal;
+	}
+	
+	.thumbnail {
+		width: 45vw;
+		height: auto;
+		display: inline-block;
+	}
+	.triptych {
+		width: 30vw;
+		height: auto;
+		display: inline-block;
+	}
+
+	.work-six{
+		margin-bottom: 2rem;
+	}
+
+	.work {
+		margin-top: 0;
+	}
+
+	.clock {
+		position: relative;
+		bottom: 5px;
+	}
+
+
+	
+</style>
+<script type="text/javascript" src="assets/jquery-3.3.1.min.js"></script>
+
+
+
+<body>
+<div id="about">
+	<div class="information">
+		<div class="yasemin">
+			<p class="background">
+				Yasemin Varlik is born in Turkey, raised in Geneva, Switzerland. 
+				She has a BFA in Communication Design and a minoring in BFA Photography from Parsons School of Design, NY.
+				She has worked in various design fields, varying from an advertising agency, TBWA United State of Fans based in Amsterdam and an editorial/graphic design intern at Mission Magazine, New York.
+			</p>
+			<h1 class="sub_title">Awards and Involvement</h1>
+			<p class="background">
+				She has been awarded with the Type Directors Club Scholarship in 2018. 
+				She is in the executive board of the school chapter for NSLS(National Society of Leadership and Success), which is a large established leadership honor society known globally.
+			</p>
+		</div>
+		<div class="yasemin">
+			<h1 class="sub_title">Information</h1>
+			<p class="background">
+				<a class="email" href="mailto:varly065@newschool.edu">[email] </a>varly065@newschool.edu<br><a class="email" href="https://www.instagram.com/yaseminvarlk/">[instagram]</a> yaseminvarlk</br>
+			</p>
+		</div>
+	</div>
+
+		<div class="work class="work-one">
+			<h1>Works</h1>
+			<a class="link_one" href="">Time Is The Only Cure</a>
+			
+			<div class="one" class="work-info" >
+				<p  class="background">
+					2017
+					<br>Wax and water</br>
+					Video Rendering
+					<br>A process which communicates the fluidity of language.</br>
+				 </p>
+				 <div class="images">
+				<img src="./assets/img/titoc.jpg">
+				<iframe class="video" src="https://www.youtube.com/embed/bFDKR_M7WLU?autoplay=1"></iframe>
+				</div>
+			</div>
+			
+		</div>
+		<div class="work work-two">
+			<div>
+				<a class="link_two" href="">All About</a>
+			</div>
+			<div class="two" class="work-info">
+				<p class="background">
+					2017
+					<br>Print, 8.5’’ x 11’’</br>
+					Paper
+					<br>Issue One, All About Dishwashers</br>
+					Reconstructing instruction manuals into a series of publications. 
+				 </p>
+				 <div class="images">
+				<img src="./assets/img/iss_11.jpg">
+				<img src="./assets/img/iss_10.jpg">
+				<img src="./assets/img/iss_09.jpg">
+				</div>
+			</div>
+		</div>
+		<div class="work work-three">
+			<div>
+				<a class="link_three" href="./assets/img/Brand_Guidelines_Nowhere_Yasemin_Varlik.pdf">[Brand Identity] Modular Typeface</a>
+			</div>
+			<div class="three" class="work-info">
+				<p class="background">
+					2018
+					<br>Digital Rendering </br>
+					Illustrator
+					<br>A system of modular characters applied on a hexagonal</br> grid using dimension and direction to allow optical confusion.<br> It is being shown applied to a festival brand identity.</br> 
+				 </p>
+				 <div class="images">
+				<img class="thumbnail" src="./assets/img/modular.jpg">
+				<img class="thumbnail" src="./assets/img/modular_logo.jpg">
+				<img src="./assets/img/modular_letterhead.jpg">
+				<img src="./assets/img/modular_poster.jpg">
+				<img src="./assets/img/modular_nametag.jpg">
+				<img src="./assets/img/modular_flyer.jpg">
+				<img src="./assets/img/modular_postcard.jpg">
+				<img src="./assets/img/modular_postcard.jpg">
+				</div>
+			</div>
+		</div>
+		<div class="work work-four">
+			<div>
+				<a class="link_four" href="https://yaseminvarlik.github.io/yaseminjavascript/loop4.html">[Website] Pixels</a>
+			</div>
+			<div class="four" class="work-info">
+				<p class="background">
+					2018
+					<br>Javascript, HTML, CSS</br>
+					Digital Rendering 
+					<br>A website that explores the idea of altering digital pixelation</br>  and the breaking down the colors into randomized visual compositions.</br> 
+				 </p>
+				 <div class="images">
+				<img class="thumbnail" src="./assets/img/pixels.png">
+				<img class="thumbnail" src="./assets/img/breakdown.png">
+		
+				</div>
+			</div>
+		</div>
+		<div class="work work-five">
+			<div>
+				<a class="link_five" href="">[Book Covers] Self-Reflection</a>
+			</div>
+			<div class="five" class="work-info">
+				<p class="background">
+					2018
+					<br>Ink and Paper</br>
+					Printmaking and Photoshop
+					<br>A triptych visual composition inspired by Islamic art;</br>  self reflection during your journey of growth. 
+				 </p>
+				 <div class="images">
+				<img class="triptych" src="./assets/img/tarot_01.jpg">
+				<img class="triptych" src="./assets/img/tarot_02.jpg">
+				<img class="triptych" src="./assets/img/tarot_03.jpg">
+		
+				</div>
+			</div>
+		</div>
+		<div class="work work-six">
+			<div>
+				<a class="link_six" href="">Experimental Typography</a>
+			</div>
+			<div class="six" class="work-info">
+				<p class="background">
+					2018
+					<br>Various Medium</br>
+					Digital Rendering 
+					<br>Ephemerality of material, natural formation of letterforms. </br>
+				 </p>
+				 <div class="images">
+				<img class="triptych" src="./assets/img/Marbling_Type.jpg">
+				<img class="triptych" src="./assets/img/Marbling_Type_02.jpg">
+				<img class="triptych" src="./assets/img/Marbling_Type_03.jpg">
+				<img class="triptych" src="./assets/img/ligth_perception.gif">
+				<img class="triptych" src="./assets/img/ligth_perception_flat.gif">
+				</div>
+			</div>
+		</div>
+
+		<div class="clock"></div>
+
+</div>
+
+</body>
+
+
+<script type="text/javascript">
+
+	function checkTime () {
+	var dt = new Date();
+	var hour = dt.getHours();
+	var min = dt.getMinutes();
+	var sec = dt.getSeconds();
+
+	if(sec<10){
+		sec = '0' + sec
+	}
+
+	if(min<10){
+		min = '0' +min
+	}
+
+	// if(hour<10){
+	// 	hour = '0' +hour
+	// }
+	var time = hour + ":" + min + ":" + sec;
+	
+
+	$(".clock").html(time);
+	setInterval(checkTime, 1000);
+	}	
+	checkTime();
+
+	$('.link_one').hover(function(){
+		$('.one').css("display", "block");
+		$('.link_one').css("font-style","italic");
+	});
+	$('.link_two').hover(function(){
+		$('.two').css("display", "block");
+		$('.link_two').css("font-style","italic");
+	});
+	$('.link_three').hover(function(){
+		$('.three').css("display", "block");
+		$('.link_three').css("font-style","italic");
+	});
+	$('.link_four').hover(function(){
+		$('.four').css("display", "block");
+		$('.link_four').css("font-style","italic");
+	});
+	$('.link_five').hover(function(){
+		$('.five').css("display", "block");
+		$('.link_five').css("font-style","italic");
+	});
+	$('.link_six').hover(function(){
+		$('.six').css("display", "block");
+		$('.link_six').css("font-style","italic");
+	});
+</script>
 </html>
