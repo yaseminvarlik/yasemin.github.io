@@ -75,7 +75,20 @@
       }
     }
 
-	.yasemin, .work , .clock{
+     @media all and (max-width: 900px) {
+      .information, .background {
+        grid-template-columns: 1fr;
+        margin-right: 2rem;
+      }
+    }
+
+      @media all and (max-width: 900px) {
+      .images {
+        grid-template-columns: 1fr;
+      }
+    }
+
+	.yasemin, .work {
 		padding-left: 2rem;
 		margin-top: 1rem;
 	}
@@ -99,7 +112,7 @@
 		
 	}
 
-	.one, .two, .three, .four, .five, .six{
+	.one, .two, .three, .four, .five, .six, .seven{
 		display: none;
 	}
 
@@ -147,7 +160,7 @@
 		display: inline-block;
 	}
 
-	.work-six{
+	.work-seven{
 		margin-bottom: 2rem;
 	}
 
@@ -160,6 +173,36 @@
 		bottom: 5px;
 	}
 
+	.link_five:hover {
+		font-style: italic;
+		cursor: pointer;
+	}
+
+	.link_four:hover {
+		font-style: italic;
+		cursor: pointer;
+	}
+	.link_three:hover {
+		font-style: italic;
+		cursor: pointer;
+	}
+	.link_six:hover {
+		font-style: italic;
+		cursor: pointer;
+	}
+
+	.link_seven:hover {
+		font-style: italic;
+		cursor: pointer;
+	}
+	.link_two:hover {
+		font-style: italic;
+		cursor: pointer;
+	}
+	.link_one:hover {
+		font-style: italic;
+		cursor: pointer;
+	}
 
 	
 </style>
@@ -185,14 +228,17 @@
 		<div class="yasemin">
 			<h1 class="sub_title">Information</h1>
 			<p class="background">
-				<a class="email" href="mailto:varly065@newschool.edu">[email] </a>varly065@newschool.edu<br><a class="email" href="https://www.instagram.com/yaseminvarlk/">[instagram]</a> yaseminvarlk</br>
+				<a class="email" href="mailto:varly065@newschool.edu">[email] </a>varly065@newschool.edu<br><a class="email" href="https://www.instagram.com/yaseminvarlk/">[instagram]</a> yaseminvarlk</br><a class="email" href="./assets/img/resume_03.pdf">[cv]</a>
 			</p>
+		</div>
+		<div class="yasemin">
+		<div class="clock"></div>
 		</div>
 	</div>
 
 		<div class="work class="work-one">
 			<h1>Works</h1>
-			<a class="link_one" href="">Time Is The Only Cure</a>
+			<h1 class="link_one" >Time Is The Only Cure</h1>
 			
 			<div class="one" class="work-info" >
 				<p  class="background">
@@ -210,7 +256,7 @@
 		</div>
 		<div class="work work-two">
 			<div>
-				<a class="link_two" href="">All About</a>
+				<h1 class="link_two" >All About</h1>
 			</div>
 			<div class="two" class="work-info">
 				<p class="background">
@@ -225,11 +271,12 @@
 				<img src="./assets/img/iss_10.jpg">
 				<img src="./assets/img/iss_09.jpg">
 				</div>
+				<a class="more" href="#"><p class="background">[Issue Two]</p></a>
 			</div>
 		</div>
 		<div class="work work-three">
 			<div>
-				<a class="link_three" href="./assets/img/Brand_Guidelines_Nowhere_Yasemin_Varlik.pdf">[Brand Identity] Modular Typeface</a>
+				<h1 class="link_three" > <a href="./assets/img/Brand_Guidelines_Nowhere_Yasemin_Varlik.pdf">[Brand Identity]</a> Modular Typeface</h1>
 			</div>
 			<div class="three" class="work-info">
 				<p class="background">
@@ -246,13 +293,12 @@
 				<img src="./assets/img/modular_nametag.jpg">
 				<img src="./assets/img/modular_flyer.jpg">
 				<img src="./assets/img/modular_postcard.jpg">
-				<img src="./assets/img/modular_postcard.jpg">
 				</div>
 			</div>
 		</div>
 		<div class="work work-four">
 			<div>
-				<a class="link_four" href="https://yaseminvarlik.github.io/yaseminjavascript/loop4.html">[Website] Pixels</a>
+				<h1 class="link_four"><a href="https://yaseminvarlik.github.io/yaseminjavascript/loop4.html">[Website]</a> Pixels</h1>
 			</div>
 			<div class="four" class="work-info">
 				<p class="background">
@@ -270,14 +316,14 @@
 		</div>
 		<div class="work work-five">
 			<div>
-				<a class="link_five" href="">[Book Covers] Self-Reflection</a>
+				<h1 class="link_five">[Book Covers] Self-Reflection</h1>
 			</div>
 			<div class="five" class="work-info">
 				<p class="background">
 					2018
 					<br>Ink and Paper</br>
 					Printmaking and Photoshop
-					<br>A triptych visual composition inspired by Islamic art;</br>  self reflection during your journey of growth. 
+					<br>A triptych visual composition inspired by Islamic art;</br>self reflection during your journey of growth. 
 				 </p>
 				 <div class="images">
 				<img class="triptych" src="./assets/img/tarot_01.jpg">
@@ -289,7 +335,7 @@
 		</div>
 		<div class="work work-six">
 			<div>
-				<a class="link_six" href="">Experimental Typography</a>
+				<h1 class="link_six">Experimental Typography</h1>
 			</div>
 			<div class="six" class="work-info">
 				<p class="background">
@@ -307,8 +353,33 @@
 				</div>
 			</div>
 		</div>
-
-		<div class="clock"></div>
+			<div class="work work-seven">
+			<div>
+				<h1 class="link_seven">Shadows on Film</h1>
+			</div>
+			<div class="seven" class="work-info">
+				<p class="background">
+					2017
+					<br>Film Photography</br>
+					Fiber Prints
+					<br>Shadows as images. </br>
+				 </p>
+				 <div class="images">
+				<img src="./assets/img/shadow_1.jpeg">
+				<img src="./assets/img/shadow_2.jpeg">
+				<img src="./assets/img/shadow_3.jpeg">
+				<img src="./assets/img/shadow_4.jpeg">
+				<img src="./assets/img/shadow_5.jpeg">
+				<img src="./assets/img/shadow_6.jpeg">
+				<img src="./assets/img/shadow_7.jpeg">
+				<img src="./assets/img/shadow_8.jpeg">
+				<img src="./assets/img/shadow_9.jpeg">
+				<img src="./assets/img/shadow_10.jpeg">
+				<img src="./assets/img/shadow_11.jpeg">
+				<img src="./assets/img/shadow_12.jpeg">
+				</div>
+			</div>
+		</div>
 
 </div>
 
@@ -316,6 +387,8 @@
 
 
 <script type="text/javascript">
+
+	$(document).ready(function() {
 
 	function checkTime () {
 	var dt = new Date();
@@ -331,9 +404,6 @@
 		min = '0' +min
 	}
 
-	// if(hour<10){
-	// 	hour = '0' +hour
-	// }
 	var time = hour + ":" + min + ":" + sec;
 	
 
@@ -342,29 +412,118 @@
 	}	
 	checkTime();
 
-	$('.link_one').hover(function(){
-		$('.one').css("display", "block");
-		$('.link_one').css("font-style","italic");
-	});
-	$('.link_two').hover(function(){
+	var applied = false;
+
+
+	$('.link_one').click(function(){
+	
+	if (!applied) {
+  
+  	$('.one').css("display", "block");
+	// $('.link_one').css("font-style","italic");
+	
+    applied = true;
+
+ 	} else { // and second click 
+
+   	$('.one').css("display", "none");
+   	// $('.link_one').css("font-style","normal");
+    applied = false;
+    
+  	};
+  	});
+		
+
+	$('.link_two').click(function(){
+		if (!applied) {
 		$('.two').css("display", "block");
-		$('.link_two').css("font-style","italic");
+		// $('.link_two').css("font-style","italic");
+
+		applied = true;
+
+		} else {
+		$('.two').css("display", "none");
+		// $('.link_two').css("font-style","normal");
+			applied = false;
+		};	
 	});
-	$('.link_three').hover(function(){
+
+	$('.link_three').click(function(){
+		if (!applied) {
 		$('.three').css("display", "block");
-		$('.link_three').css("font-style","italic");
+		// $('.link_three').css("font-style","italic");
+		applied = true;
+
+		} else {
+			$('.three').css("display", "none");
+				applied = false;
+		};
 	});
-	$('.link_four').hover(function(){
+
+	$('.link_four').click(function(){
+		if (!applied) {
 		$('.four').css("display", "block");
-		$('.link_four').css("font-style","italic");
+		// $('.link_four').css("font-style","italic");
+		applied = true;
+
+		} else {
+		$('.four').css("display", "none");
+		// $('.link_four').css("font-style","normal");
+			applied = false;
+		};
 	});
-	$('.link_five').hover(function(){
+
+
+
+	$('.link_five').click(function(){
+		if (!applied) {
 		$('.five').css("display", "block");
-		$('.link_five').css("font-style","italic");
+		// $('.link_five').css("font-style","italic");
+		applied = true;
+
+		} else {
+		$('.five').css("display", "none");
+		// $('.link_five').css("font-style","normal");
+			applied = false;
+		};
 	});
-	$('.link_six').hover(function(){
+
+
+	$('.link_six').click(function(){
+		if (!applied) {
 		$('.six').css("display", "block");
-		$('.link_six').css("font-style","italic");
+		// $('.link_six').css("font-style","italic");
+		applied = true;
+
+		} else {
+		$('.six').css("display", "none");
+		// $('.link_six').css("font-style","normal");
+			applied = false;
+		};
+	});
+
+
+	$('.link_seven').click(function(){
+		if (!applied) {
+		$('.seven').css("display", "block");
+		// $('.link_seven').css("font-style","italic");
+		applied = true;
+
+		} else {
+		$('.seven').css("display", "none");
+		// $('.link_seven').css("font-style","normal");
+		applied = false;
+		};
+	});
+
 	});
 </script>
 </html>
+
+
+
+
+
+
+
+
