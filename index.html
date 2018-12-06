@@ -85,6 +85,7 @@
       @media all and (max-width: 900px) {
       .images {
         grid-template-columns: 1fr;
+
       }
     }
 
@@ -92,10 +93,6 @@
 		padding-left: 2rem;
 		margin-top: 1rem;
 	}
-	
-	/*.link_one:hover + div {
-		display: block;
-	}*/
 
 	
 	.background, .clock {
@@ -112,7 +109,7 @@
 		
 	}
 
-	.one, .two, .three, .four, .five, .six, .seven{
+	.one, .two, .three, .four, .five, .six, .seven, .issue_two{
 		display: none;
 	}
 
@@ -129,14 +126,17 @@
 		height: auto;
 		margin-right: 2rem;
 		display: flex;
-		margin-bottom: 3rem;
+		margin-bottom: 2rem;
 
 	}
+
+
 
 	.images {
-		margin-bottom: 3rem;
+		margin-bottom: 2rem;
 
 	}
+
 
 	.video {
 		width: 50vw;
@@ -166,6 +166,11 @@
 
 	.work {
 		margin-top: 0;
+	}
+	.more{
+		margin-top: 0;
+		margin-bottom: 1rem;
+		text-indent: 1rem;
 	}
 
 	.clock {
@@ -200,6 +205,10 @@
 		cursor: pointer;
 	}
 	.link_one:hover {
+		font-style: italic;
+		cursor: pointer;
+	}
+	.more:hover {
 		font-style: italic;
 		cursor: pointer;
 	}
@@ -249,15 +258,15 @@
 				 </p>
 				 <div class="images">
 				<img src="./assets/img/titoc.jpg">
-				<iframe class="video" src="https://www.youtube.com/embed/bFDKR_M7WLU?autoplay=1"></iframe>
+				<iframe class="video" src="https://www.youtube.com/embed/bFDKR_M7WLU?autoplay=1" data-cookiescript="accepted" alt="Please accept cookie policy first"></iframe>
 				</div>
 			</div>
 			
 		</div>
 		<div class="work work-two">
-			<div>
-				<h1 class="link_two" >All About</h1>
-			</div>
+				<div>
+					<h1 class="link_two" >All About</h1>
+				</div>
 			<div class="two" class="work-info">
 				<p class="background">
 					2017
@@ -269,11 +278,28 @@
 				 <div class="images">
 				<img src="./assets/img/iss_11.jpg">
 				<img src="./assets/img/iss_10.jpg">
-				<img src="./assets/img/iss_09.jpg">
+				<img class="after" src="./assets/img/iss_09.jpg">
 				</div>
-				<a class="more" href="#"><p class="background">[Issue Two]</p></a>
+
+				<h1 class="more">[More] Issue Two</h1>
+				<div class="issue_two">
+				<p class="background">
+					2017
+					<br>Print, 8.5’’ x 11’’</br>
+					Paper
+					<br>Issue Two, All About Ovens</br>	
+				 </p>
+					 <div class="images">
+						<img src="./assets/img/issue2_04.jpg">
+						<img src="./assets/img/issue2_02.jpg">
+						<img src="./assets/img/issue2_01.jpg">
+						<img src="./assets/img/issue2_05.jpg">
+						<img src="./assets/img/issue2_03.jpg">
+					</div>
+				</div>
 			</div>
 		</div>
+
 		<div class="work work-three">
 			<div>
 				<h1 class="link_three" > <a href="./assets/img/Brand_Guidelines_Nowhere_Yasemin_Varlik.pdf">[Brand Identity]</a> Modular Typeface</h1>
@@ -511,6 +537,19 @@
 
 		} else {
 		$('.seven').css("display", "none");
+		// $('.link_seven').css("font-style","normal");
+		applied = false;
+		};
+	});
+
+	$('.more').click(function(){
+		if (!applied) {
+		$('.issue_two').css("display", "block");
+		// $('.link_seven').css("font-style","italic");
+		applied = true;
+
+		} else {
+		$('.issue_two').css("display", "none");
 		// $('.link_seven').css("font-style","normal");
 		applied = false;
 		};
