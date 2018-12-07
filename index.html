@@ -391,18 +391,18 @@
 					<br>Shadows as images. </br>
 				 </p>
 				 <div class="images">
-				<img src="./assets/img/shadow_1.jpeg">
-				<img src="./assets/img/shadow_2.jpeg">
-				<img src="./assets/img/shadow_3.jpeg">
-				<img src="./assets/img/shadow_4.jpeg">
-				<img src="./assets/img/shadow_5.jpeg">
-				<img src="./assets/img/shadow_6.jpeg">
-				<img src="./assets/img/shadow_7.jpeg">
-				<img src="./assets/img/shadow_8.jpeg">
-				<img src="./assets/img/shadow_9.jpeg">
-				<img src="./assets/img/shadow_10.jpeg">
-				<img src="./assets/img/shadow_11.jpeg">
-				<img src="./assets/img/shadow_12.jpeg">
+				<img src="./assets/img/shadow_1.jpg">
+				<img src="./assets/img/shadow_2.jpg">
+				<img src="./assets/img/shadow_3.jpg">
+				<img src="./assets/img/shadow_4.jpg">
+				<img src="./assets/img/shadow_5.jpg">
+				<img src="./assets/img/shadow_6.jpg">
+				<img src="./assets/img/shadow_7.jpg">
+				<img src="./assets/img/shadow_8.jpg">
+				<img src="./assets/img/shadow_9.jpg">
+				<img src="./assets/img/shadow_10.jpg">
+				<img src="./assets/img/shadow_11.jpg">
+				<img src="./assets/img/shadow_12.jpg">
 				</div>
 			</div>
 		</div>
@@ -441,121 +441,45 @@
 	var applied = false;
 
 
-	$('.link_one').click(function(){
-	
-	if (!applied) {
-  
-  	$('.one').css("display", "block");
-	// $('.link_one').css("font-style","italic");
-	
-    applied = true;
-
- 	} else { // and second click 
-
-   	$('.one').css("display", "none");
-   	// $('.link_one').css("font-style","normal");
-    applied = false;
-    
-  	};
-  	});
+ 	$('.link_one').click(function(){
+ 		changeCSS('.one')
+ 	});
+ 	$('.link_two').click(function(){
+ 		changeCSS('.two')
+ 	});
+ 	$('.link_three').click(function(){
+ 		changeCSS('.three')
+ 	});
+ 	$('.link_four').click(function(){
+ 		changeCSS('.four')
+ 	});
+ 	$('.link_five').click(function(){
+ 		changeCSS('.five')
+ 	});
+ 	$('.link_six').click(function(){
+ 		changeCSS('.six')
+ 	});
+ 	$('.link_seven').click(function(){
+ 		changeCSS('.seven')
+ 	});
+ 	$('.more').click(function(){
+ 		changeCSS('.issue_two')
+ 	});
 		
 
-	$('.link_two').click(function(){
+	function changeCSS(el) {
 		if (!applied) {
-		$('.two').css("display", "block");
-		// $('.link_two').css("font-style","italic");
-
-		applied = true;
-
-		} else {
-		$('.two').css("display", "none");
-		// $('.link_two').css("font-style","normal");
-			applied = false;
-		};	
-	});
-
-	$('.link_three').click(function(){
-		if (!applied) {
-		$('.three').css("display", "block");
-		// $('.link_three').css("font-style","italic");
-		applied = true;
-
-		} else {
-			$('.three').css("display", "none");
-				applied = false;
-		};
-	});
-
-	$('.link_four').click(function(){
-		if (!applied) {
-		$('.four').css("display", "block");
-		// $('.link_four').css("font-style","italic");
-		applied = true;
-
-		} else {
-		$('.four').css("display", "none");
-		// $('.link_four').css("font-style","normal");
-			applied = false;
-		};
-	});
-
-
-
-	$('.link_five').click(function(){
-		if (!applied) {
-		$('.five').css("display", "block");
-		// $('.link_five').css("font-style","italic");
-		applied = true;
-
-		} else {
-		$('.five').css("display", "none");
-		// $('.link_five').css("font-style","normal");
-			applied = false;
-		};
-	});
-
-
-	$('.link_six').click(function(){
-		if (!applied) {
-		$('.six').css("display", "block");
-		// $('.link_six').css("font-style","italic");
-		applied = true;
-
-		} else {
-		$('.six').css("display", "none");
-		// $('.link_six').css("font-style","normal");
-			applied = false;
-		};
-	});
-
-
-	$('.link_seven').click(function(){
-		if (!applied) {
-		$('.seven').css("display", "block");
+		$(el).css("display", "block");
 		// $('.link_seven').css("font-style","italic");
 		applied = true;
 
 		} else {
-		$('.seven').css("display", "none");
+		$(el).css("display", "none");
 		// $('.link_seven').css("font-style","normal");
 		applied = false;
 		};
-	});
-
-	$('.more').click(function(){
-		if (!applied) {
-		$('.issue_two').css("display", "block");
-		// $('.link_seven').css("font-style","italic");
-		applied = true;
-
-		} else {
-		$('.issue_two').css("display", "none");
-		// $('.link_seven').css("font-style","normal");
-		applied = false;
-		};
-	});
-
-	});
+	}
+});
 </script>
 </html>
 
