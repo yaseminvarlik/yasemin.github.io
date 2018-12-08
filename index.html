@@ -258,7 +258,7 @@
 				 </p>
 				 <div class="images">
 				<img src="./assets/img/titoc.jpg">
-				<iframe class="video" src="https://www.youtube.com/embed/bFDKR_M7WLU?autoplay=1" data-cookiescript="accepted" alt="Please accept cookie policy first"></iframe>
+				<iframe class="video" src="https://www.youtube.com/embed/bFDKR_M7WLU?autoplay=1"></iframe>
 				</div>
 			</div>
 			
@@ -294,7 +294,7 @@
 						<img src="./assets/img/issue2_02.jpg">
 						<img src="./assets/img/issue2_01.jpg">
 						<img src="./assets/img/issue2_05.jpg">
-						<img src="./assets/img/issue2_03.jpg">
+						<!-- <img src="./assets/img/issue2_03.jpg"> -->
 					</div>
 				</div>
 			</div>
@@ -470,12 +470,10 @@
 	function changeCSS(el) {
 		if (!applied) {
 		$(el).css("display", "block");
-		// $('.link_seven').css("font-style","italic");
 		applied = true;
 
 		} else {
 		$(el).css("display", "none");
-		// $('.link_seven').css("font-style","normal");
 		applied = false;
 		};
 	}
