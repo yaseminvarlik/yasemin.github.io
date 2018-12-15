@@ -1,28 +1,28 @@
 
 			$(document).ready(function() {
 
-			function checkTime () {
-			var dt = new Date();
-			var hour = dt.getHours();
-			var min = dt.getMinutes();
-			var sec = dt.getSeconds();
+			// function checkTime () {
+			// var dt = new Date();
+			// var hour = dt.getHours();
+			// var min = dt.getMinutes();
+			// var sec = dt.getSeconds();
 
-			if(sec<10){
-				sec = '0' + sec
-			}
+			// if(sec<10){
+			// 	sec = '0' + sec
+			// }
 
-			if(min<10){
-				min = '0' +min
-			}
+			// if(min<10){
+			// 	min = '0' +min
+			// }
 
-			var time = hour + ":" + min + ":" + sec;
+			// var time = hour + ":" + min + ":" + sec;
 			
 
-			$(".clock").html(time);
-			setInterval(checkTime, 1000);
-			};
+			// $(".clock").html(time);
+			// setInterval(checkTime, 1000);
+			// };
 
-			checkTime();
+			// checkTime();
 
 			var applied = false;
 
