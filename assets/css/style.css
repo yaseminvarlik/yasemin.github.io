@@ -1,0 +1,205 @@
+ *{
+	      margin: 0;
+	      padding: 0;
+	      border: 0;
+	    
+	    }
+		body {
+			line-height: 1;
+		}
+
+		div {
+			display: block;
+		}
+
+		ol, ul {
+		list-style: none;
+		}
+		
+		::-moz-selection { /* Code for Firefox */
+	    background: yellow;
+			}
+
+
+
+		::selection {
+	    background: yellow;
+		}
+
+		body, html, h1, h2, a {
+			font-family: "Geneva", sans-serif;
+			font-weight: normal;
+			font-size: 18px;
+			line-height: 1.3;
+
+		}
+		body, html, h1, div, h2, a {
+			font-size: 100%;
+		}
+
+		@media all and (max-width: 1200px) {
+	      body,
+	      html,
+	       {
+	        font-size: 18px;
+	      }
+	    }
+
+	     @media all and (max-width: 800px) {
+	      body,
+	      html,
+	      {
+	        font-size: 14px;
+	      }
+	    }
+
+		.information{
+			display: grid;
+			grid-column-gap: 2rem;
+			grid-template-columns: 1fr 1fr 1fr;
+		}
+
+		@media all and (max-width: 900px) {
+	      .information {
+	        min-height: 30vh;
+
+	      }
+	    }
+
+	     @media all and (max-width: 900px) {
+	      .information, .background {
+	        grid-template-columns: 1fr;
+	        margin-right: 2rem;
+	      }
+	    }
+
+	      @media all and (max-width: 900px) {
+	      .images {
+	        grid-template-columns: 1fr;
+
+	      }
+	    }
+
+		.yasemin, .work {
+			padding-left: 2rem;
+			margin-top: 1rem;
+		}
+
+		
+		.background, .clock {
+			margin-bottom: 1rem;
+		}
+		
+		.background h1.sub_title {
+			margin-top: 0;
+			vertical-align: baseline;
+			font: inherit;
+			border: 0;
+			margin:0;
+			padding: 0;
+			
+		}
+
+		.one, .two, .three, .four, .five, .six, .seven, .issue_two{
+			display: none;
+		}
+
+		a {
+			text-decoration: none;
+			color: black;
+		}
+		/*a:hover {
+			font-style: italic;
+		}*/
+
+		img, .video {
+			width: 90vw;
+			height: auto;
+			margin-right: 2rem;
+			display: flex;
+			margin-bottom: 2rem;
+
+		}
+
+
+
+		.images {
+			margin-bottom: 2rem;
+
+		}
+
+
+		.video {
+			width: 50vw;
+			height: 55vh;
+			display: block;
+		}
+		
+		.email:hover {
+			font-weight: bold;
+			font-style: normal;
+		}
+		
+		.thumbnail {
+			width: 45vw;
+			height: auto;
+			display: inline-block;
+		}
+		.triptych {
+			width: 30vw;
+			height: auto;
+			display: inline-block;
+		}
+
+		.work-seven{
+			margin-bottom: 2rem;
+		}
+
+		.work {
+			margin-top: 0;
+		}
+		.more{
+			margin-top: 0;
+			margin-bottom: 1rem;
+			text-indent: 1rem;
+		}
+
+		.clock {
+			position: relative;
+			bottom: 5px;
+		}
+
+		.link_five:hover {
+			font-style: italic;
+			cursor: pointer;
+		}
+
+		.link_four:hover {
+			font-style: italic;
+			cursor: pointer;
+		}
+		.link_three:hover {
+			font-style: italic;
+			cursor: pointer;
+		}
+		.link_six:hover {
+			font-style: italic;
+			cursor: pointer;
+		}
+
+		.link_seven:hover {
+			font-style: italic;
+			cursor: pointer;
+		}
+		.link_two:hover {
+			font-style: italic;
+			cursor: pointer;
+		}
+		.link_one:hover {
+			font-style: italic;
+			cursor: pointer;
+		}
+		.more:hover {
+			font-style: italic;
+			cursor: pointer;
+		}
