@@ -1,5 +1,5 @@
 
-			
+			$(document).ready(function() {
 
 			function checkTime () {
 			var dt = new Date();
@@ -20,7 +20,8 @@
 
 			$(".clock").html(time);
 			setInterval(checkTime, 1000);
-			}	
+			};
+
 			checkTime();
 
 			var applied = false;
@@ -62,7 +63,7 @@
 				applied = false;
 				};
 			}
-	
+		});
 
 
 
