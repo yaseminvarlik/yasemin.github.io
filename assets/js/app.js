@@ -31,7 +31,7 @@
 		 		changeCSS('.one')
 		 	});
 		 	$('.link_two').click(function(){
-		 		changeCSS('.two')
+		 		changeCSS('.two')	
 		 	});
 		 	$('.link_three').click(function(){
 		 		changeCSS('.three')
@@ -54,7 +54,6 @@
 		 	$('.more').click(function(){
 		 		changeCSS('.issue_two')
 		 	});
-
 
 			function changeCSS(el) {
 				if (!applied) {

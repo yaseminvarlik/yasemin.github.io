@@ -125,7 +125,6 @@
 
 		}
 
-
 		.video {
 			width: 50vw;
 			height: 55vh;
@@ -218,7 +217,13 @@
 			font-style: italic;
 			cursor: pointer;
 		}
-		.italic_text  {
+		.italic_text{
 			font-style: italic;
 		}
+
+		.indent {
+			text-indent: 1rem;
+		}
+
+
 
