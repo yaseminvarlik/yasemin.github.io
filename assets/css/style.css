@@ -120,7 +120,6 @@
 		}
 
 
-
 		.images {
 			margin-bottom: 2rem;
 
@@ -174,10 +173,10 @@
 			text-indent: 1rem;
 		}
 
-		.clock {
+		/*.clock {
 			position: relative;
 			bottom: 5px;
-		}
+		}*/
 
 		.link_five:hover {
 			font-style: italic;
