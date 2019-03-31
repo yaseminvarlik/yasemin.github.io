@@ -16,11 +16,9 @@
 		list-style: none;
 		}
 		
-		::-moz-selection { /* Code for Firefox */
+		::-moz-selection { 
 	    background: yellow;
 			}
-
-
 
 		::selection {
 	    background: yellow;
@@ -100,7 +98,7 @@
 			
 		}
 
-		.one, .two, .three, .four, .five, .six, .seven, .issue_two{
+		.one, .two, .three, .four, .five, .six, .seven, .issue_two, .eight{
 			display: none;
 		}
 
@@ -113,7 +111,7 @@
 		}*/
 
 		img, .video {
-			width: 90vw;
+			width: 86vw;
 			height: auto;
 			margin-right: 2rem;
 			display: flex;
@@ -147,6 +145,18 @@
 		}
 		.triptych {
 			width: 30vw;
+			height: auto;
+			display: inline-block;
+		}
+		.threenext {
+			width: 27vw;
+			height: auto;
+			display: inline-block;
+			padding-top: 1rem;
+		}
+
+		.smallerfull{
+			width: 86vw;
 			height: auto;
 			display: inline-block;
 		}
@@ -199,7 +209,17 @@
 			font-style: italic;
 			cursor: pointer;
 		}
+
+		.link_eight:hover {
+			font-style: italic;
+			cursor: pointer;
+		}
+
 		.more:hover {
 			font-style: italic;
 			cursor: pointer;
 		}
+		.italic_text  {
+			font-style: italic;
+		}
+

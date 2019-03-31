@@ -48,10 +48,13 @@
 		 	$('.link_seven').click(function(){
 		 		changeCSS('.seven')
 		 	});
+		 	$('.link_eight').click(function(){
+		 		changeCSS('.eight')
+		 	});
 		 	$('.more').click(function(){
 		 		changeCSS('.issue_two')
 		 	});
-				
+
 
 			function changeCSS(el) {
 				if (!applied) {
