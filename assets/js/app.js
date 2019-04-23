@@ -51,13 +51,21 @@
 		 	$('.link_eight').click(function(){
 		 		changeCSS('.eight')
 		 	});
+		 	$('.link_nine').click(function(){
+		 		changeCSS('.nine')
+		 	});
 		 	$('.more').click(function(){
 		 		changeCSS('.issue_two')
+		 	});
+		 	$('.more_two').click(function(){
+		 		changeCSS('.issue_three')
 		 	});
 
 			function changeCSS(el) {
 				if (!applied) {
-				$(el).css("display", "block");
+				$(el).css({"display": "block", 
+							"padding-left": "30px"
+						});
 				applied = true;
 
 				} else {

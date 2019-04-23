@@ -98,7 +98,7 @@
 			
 		}
 
-		.one, .two, .three, .four, .five, .six, .seven, .issue_two, .eight{
+		.one, .two, .three, .four, .five, .six, .seven, .issue_two, .eight, .issue_three, .nine{
 			display: none;
 		}
 
@@ -168,8 +168,12 @@
 		}
 		.more{
 			margin-top: 0;
+			/*text-indent: 1rem;*/
+		}
+		.more_two{
+			margin-top: 0;
 			margin-bottom: 1rem;
-			text-indent: 1rem;
+			/*text-indent: 1rem;*/
 		}
 
 		/*.clock {
@@ -212,8 +216,16 @@
 			font-style: italic;
 			cursor: pointer;
 		}
+		.link_nine:hover {
+			font-style: italic;
+			cursor: pointer;
+		}
 
 		.more:hover {
+			font-style: italic;
+			cursor: pointer;
+		}
+		.more_two:hover {
 			font-style: italic;
 			cursor: pointer;
 		}
