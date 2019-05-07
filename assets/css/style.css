@@ -65,7 +65,7 @@
 	    }
 
 	     @media all and (max-width: 900px) {
-	      .information, .background {
+	      .information, .background, .work-info {
 	      	margin-right: 2rem;
 	        grid-template-columns: 1fr;
 	        
