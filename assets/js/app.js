@@ -1,28 +1,6 @@
 
 			$(document).ready(function() {
 
-			// function checkTime () {
-			// var dt = new Date();
-			// var hour = dt.getHours();
-			// var min = dt.getMinutes();
-			// var sec = dt.getSeconds();
-
-			// if(sec<10){
-			// 	sec = '0' + sec
-			// }
-
-			// if(min<10){
-			// 	min = '0' +min
-			// }
-
-			// var time = hour + ":" + min + ":" + sec;
-			
-
-			// $(".clock").html(time);
-			// setInterval(checkTime, 1000);
-			// };
-
-			// checkTime();
 
 			var applied = false;
 
@@ -63,8 +41,7 @@
 
 			function changeCSS(el) {
 				if (!applied) {
-				$(el).css({"display": "block", 
-							"padding-left": "30px"
+				$(el).css({"display": "block"
 						});
 				applied = true;
 
@@ -73,7 +50,59 @@
 				applied = false;
 				};
 			}
+			$('.link_one').click(function(){
+				$('html,body').animate({
+        		scrollTop: $('.link_one').offset().top},'slow');
+			
 		});
+			$('.more').click(function(){
+				$('html,body').animate({
+        		scrollTop: $('.more').offset().top},'slow');
+			
+		});
+			$('.more_two').click(function(){
+				$('html,body').animate({
+        		scrollTop: $('.more_two').offset().top},'slow');
+			
+		});
+			$('.link_two').click(function(){
+				$('html,body').animate({
+        		scrollTop: $('.link_two').offset().top},'slow');
+			
+		});
+			$('.link_three').click(function(){
+				$('html,body').animate({
+        		scrollTop: $('.link_three').offset().top},'slow');
+			
+		});
+			$('.link_four').click(function(){
+				$('html,body').animate({
+        		scrollTop: $('.link_four').offset().top},'slow');
+			
+		});
+			$('.link_five').click(function(){
+				$('html,body').animate({
+        		scrollTop: $('.link_five').offset().top},'slow');
+			
+		});
+			$('.link_eight').click(function(){
+				$('html,body').animate({
+        		scrollTop: $('.link_eight').offset().top},'slow');
+			
+		});
+			$('.link_six').click(function(){
+				$('html,body').animate({
+        		scrollTop: $('.link_six').offset().top},'slow');
+			
+		});
+			$('.link_seven').click(function(){
+				$('html,body').animate({
+        		scrollTop: $('.link_seven').offset().top},'slow');
+			
+		});
+			
+			});
+
 
 
 
