@@ -242,9 +242,8 @@
 			text-indent: 1rem;
 		}
 
-		.animation {
-			font-style: italic;
-			text-decoration: underline;
+		.animation:hover {
+			font-weight: bold;
 		}
 
 
