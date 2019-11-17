@@ -32,6 +32,9 @@
 		 	$('.link_nine').click(function(){
 		 		changeCSS('.nine')
 		 	});
+		 	$('.link_ten').click(function(){
+		 		changeCSS('.ten')
+		 	});
 		 	$('.more').click(function(){
 		 		changeCSS('.issue_two')
 		 	});

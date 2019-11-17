@@ -98,7 +98,7 @@
 			
 		}
 
-		.one, .two, .three, .four, .five, .six, .seven, .issue_two, .eight, .issue_three, .nine {
+		.one, .two, .three, .four, .five, .six, .seven, .issue_two, .eight, .issue_three, .nine, .ten {
 			display: none;
 		
 		}
@@ -164,7 +164,7 @@
 			display: inline-block;
 		}
 
-		.work-seven{
+		.work-ten {
 			margin-bottom: 2rem;
 		}
 
@@ -222,6 +222,10 @@
 			cursor: pointer;
 		}
 		.link_nine:hover {
+			font-style: italic;
+			cursor: pointer;
+		}
+		.link_ten {
 			font-style: italic;
 			cursor: pointer;
 		}
