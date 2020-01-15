@@ -151,6 +151,13 @@
 			display: inline-block;
 
 		}
+
+		.illustration {
+			width: 45vw;
+			height: auto;
+			display: inline-block;
+		}
+
 		.threenext {
 			width: 23.4vw;
 			height: auto;
@@ -225,7 +232,7 @@
 			font-style: italic;
 			cursor: pointer;
 		}
-		.link_ten {
+		.link_ten:hover {
 			font-style: italic;
 			cursor: pointer;
 		}
