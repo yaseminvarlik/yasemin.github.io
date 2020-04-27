@@ -98,7 +98,7 @@
 			
 		}
 
-		.one, .two, .three, .four, .five, .six, .seven, .issue_two, .eight, .issue_three, .nine, .ten {
+		.one, .two, .three, .four, .five, .six, .seven, .issue_two, .eight, .issue_three, .nine, .ten, .eleven {
 			display: none;
 		
 		}
@@ -158,6 +158,22 @@
 			display: inline-block;
 		}
 
+		.illustration_square {
+			width: 29vw;
+			height: auto;
+			display: inline-block;
+		}
+
+		.illustration_large {
+			width: auto;
+			height: 38vh;
+			display: inline-block;
+		}
+
+		.illustration_noinline {
+			width: 30vw;
+			height: auto;
+		}
 		.threenext {
 			width: 23.4vw;
 			height: auto;
@@ -171,7 +187,7 @@
 			display: inline-block;
 		}
 
-		.work-ten {
+		.work-seven {
 			margin-bottom: 2rem;
 		}
 
@@ -233,6 +249,11 @@
 			cursor: pointer;
 		}
 		.link_ten:hover {
+			font-style: italic;
+			cursor: pointer;
+		}
+
+		.link_eleven:hover {
 			font-style: italic;
 			cursor: pointer;
 		}

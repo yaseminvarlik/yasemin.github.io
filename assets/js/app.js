@@ -35,6 +35,9 @@
 		 	$('.link_ten').click(function(){
 		 		changeCSS('.ten')
 		 	});
+		 	$('.link_eleven').click(function(){
+		 		changeCSS('.eleven')
+		 	});
 		 	$('.more').click(function(){
 		 		changeCSS('.issue_two')
 		 	});

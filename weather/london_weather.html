@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<title>London Weather Swatchbook</title>
+	<link rel="shortcut icon" type="image/png" href="./assets/mainfav.png"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<style type="text/css">
+
+		html, body, div{
+ 		margin: 0;
+ 		padding: 0;
+ 		width: 100%;
+ 		height: 100%;
+ 		font-size: 15px;
+		/*text-align: center;*/
+		/*overflow: hidden;*/
+		
+ 	}
+
+
+	#clocky {
+	color: black;
+	font-family: sans-serif;
+	font-size: 15px;
+	position: absolute;
+	left: 2%;
+	top: 2%;
+	width: 100px;
+	height: 20px;
+
+	}
+	/*#overlay {
+		width: 100%;
+		height: 100%;
+		background-color: black;
+	}*/
+
+
+
+
+</style>
+
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  		integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  		crossorigin="anonymous">
+  			
+  		</script>
+
+ <script type="text/javascript">
+
+ 
+
+ 	$(document).ready(function(){
+
+ 		 
+
+
+
+	    $.get("http://api.openweathermap.org/data/2.5/weather?id=2643743&units=metric&APPID=c4f798f5b2dbc54b7d97147783e2d7ad", function(data) {
+
+			var weather = data.weather[0].main;
+	     	console.log(weather)
+
+
+	    	function time(){
+			var today = new Date();
+			var h = today.getHours()
+		  	// if (h>12) {h= h- "12"}
+
+		 //  	if(h >= 12 && h < 19 ) 
+			// {
+   //  		$("#three").css({
+   //  			"background-image" :'linear-gradient(#000002,#060204 ,#241D0E, #4C431F, #757569, #817C70)',
+			// 	"opacity" : 1
+   //  		});
+   //  		$("#clocky").css({
+   //  			"color": "white"
+   //  		})
+   //  		}
+			if(h > 19) 
+			{
+			$("#three").css({
+				"background-image" :'linear-gradient(#000002,#060204 ,#241D0E, #4C431F, #757569, #817C70)',
+				"opacity" : 1
+    		});
+    		$("#clocky").css({
+    			"color": "white"
+    		})
+
+			};
+
+		  var m = today.getMinutes();
+		  var s = today.getSeconds();
+		  m = checkTime(m);
+		  s = checkTime(s);
+		  document.getElementById('clocky').innerHTML = h + ":" + m + ":" + s;
+		  var t = setTimeout(time, 500);
+			}
+
+
+		function checkTime(i) {
+			if (i < 10) {i = "0" + i}
+			return i;
+	     	};
+			
+
+	     	if(weather == "Clear"){
+	     		$("#three").css({"background-image" :'linear-gradient(#B5DFF3 ,#C1E7EF, #DBEFEC, #E5F4F3, #F7F8F9)'})
+	     	} 
+	     	else if(weather == "Rain"){
+	     		$("#three").css({"background-image" :'linear-gradient(#080206 ,#031013, #061118, #242F43, #66727A, #A2A8AA)'})
+
+	     	}
+	     	else if(weather == "Clouds"){
+	     		$("#three").css({"background-image" :'linear-gradient(#76889D ,#8E9FB2, #9FB1C2, #BCC4CE, #D2D7DF, #E4E9E8)'})
+
+	     	}
+	     	else if(weather == "Drizzle"){
+	     		$("#three").css({"background-image" :'linear-gradient(#DCE2E5, #DFE5E5 ,#E4E7E5, #E4E7E5, #E0E1E3, #E9E7E4, #E9EBEC)'})
+
+	     	}
+	     	else if(weather == "Snow"){
+	     		$("#three").css({"background-image" :'linear-gradient(#76889D ,#8E9FB2, #9FB1C2, #BCC4CE, #D2D7DF, #E4E9E8)'})
+
+	     	};
+	   
+
+
+	     	time();
+		    
+		     });
+	
+
+			});
+
+			
+
+
+	    
+
+ </script>	
+
+</head>
+<body>
+	
+		
+		<div id="three">
+			
+		</div>
+		<div id="clocky">
+			<!-- <p>hello</p> -->
+		</div>
+		
+
+		
+
+		
+
+
+</body>
+</html>
