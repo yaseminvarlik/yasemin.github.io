@@ -111,6 +111,11 @@
         		scrollTop: $('.link_ten').offset().top},'slow');
 			
 		});
+			$('.link_eleven').click(function(){
+				$('html,body').animate({
+        		scrollTop: $('.link_eleven').offset().top},'slow');
+			
+		});
 			
 			});
 
