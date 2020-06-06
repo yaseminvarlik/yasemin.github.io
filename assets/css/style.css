@@ -164,6 +164,12 @@
 			display: inline-block;
 		}
 
+		.illustration_video {
+			width: 50vw;
+			height: auto;
+			display: inline-block;
+		}
+
 		.illustration_square {
 			width: 29vw;
 			height: auto;
