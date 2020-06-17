@@ -106,6 +106,11 @@
         		scrollTop: $('.link_seven').offset().top},'slow');
 			
 		});
+			$('.link_nine').click(function(){
+				$('html,body').animate({
+        		scrollTop: $('.link_nine').offset().top},'slow');
+			
+		});
 			$('.link_ten').click(function(){
 				$('html,body').animate({
         		scrollTop: $('.link_ten').offset().top},'slow');
