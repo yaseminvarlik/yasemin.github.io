@@ -102,7 +102,7 @@
 			
 		}
 
-		.one, .two, .three, .four, .five, .six, .seven, .issue_two, .eight, .issue_three, .nine, .ten, .eleven {
+		.one, .two, .three, .four, .five, .six, .seven, .issue_two, .eight, .issue_three, .nine, .ten, .eleven, .twelve {
 			display: none;
 		
 		}
@@ -267,6 +267,10 @@
 		}
 
 		.link_eleven:hover {
+			font-style: italic;
+			cursor: pointer;
+		}
+		.link_twelve:hover {
 			font-style: italic;
 			cursor: pointer;
 		}
