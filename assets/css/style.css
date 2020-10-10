@@ -102,7 +102,7 @@
 			
 		}
 
-		.one, .two, .three, .four, .five, .six, .seven, .issue_two, .eight, .issue_three, .nine, .ten, .eleven, .twelve {
+		.one, .two, .three, .four, .five, .six, .seven, .issue_two, .eight, .issue_three, .nine, .ten, .eleven, .twelve, .thirteen {
 			display: none;
 		
 		}
@@ -274,6 +274,10 @@
 			font-style: italic;
 			cursor: pointer;
 		}
+		.link_thirteen:hover {
+			font-style: italic;
+			cursor: pointer;
+		}
 
 		.more:hover {
 			font-style: italic;
@@ -287,6 +291,10 @@
 			font-style: italic;
 		}
 
+		.underline:hover {
+			text-decoration: underline;
+		}
+
 		.indent {
 			text-indent: 1rem;
 		}
@@ -294,6 +302,141 @@
 		.animation:hover {
 			font-weight: bold;
 		}
+
+		.hover {
+			display: none;
+		}
+		h1.link_thirteen:hover + .hover {
+			display: block;
+			 position: absolute;
+  			top: 50%;
+  			left: 50%;
+  			-webkit-transform: translate(-50%, -50%);
+  			transform: translate(-50%, -50%);
+			width: 30vw;
+			z-index: -10;
+		}
+
+		h1.link_eight:hover + .hover {
+			display: block;
+			position: absolute;
+  			top: 50%;
+  			left: 50%;
+  			-webkit-transform: translate(-50%, -50%);
+  			transform: translate(-50%, -50%);
+			width: 30vw;
+			z-index: -10;
+		}
+
+		h1.link_one:hover + .hover {
+			display: block;
+			position: absolute;
+  			top: 50%;
+  			left: 50%;
+  			-webkit-transform: translate(-50%, -50%);
+  			transform: translate(-50%, -50%);
+			width: 50vw;
+			z-index: -10;
+		}
+
+			h1.link_two:hover + .hover {
+			display: block;
+			position: absolute;
+  			top: 50%;
+  			left: 50%;
+  			-webkit-transform: translate(-50%, -50%);
+  			transform: translate(-50%, -50%);
+			width: 40vw;
+			z-index: -10;
+		}
+
+		h1.link_four:hover + .hover {
+			display: block;
+			position: absolute;
+  			top: 50%;
+  			left: 50%;
+  			-webkit-transform: translate(-50%, -50%);
+  			transform: translate(-50%, -50%);
+			width: 40vw;
+			z-index: -10;
+		}
+
+		h1.link_nine:hover + .hover {
+			display: block;
+			position: absolute;
+  			top: 50%;
+  			left: 50%;
+  			-webkit-transform: translate(-50%, -50%);
+  			transform: translate(-50%, -50%);
+			width: 40vw;
+			z-index: -10;
+		}
+			h1.link_twelve:hover + .hover {
+			display: block;
+			position: absolute;
+  			top: 50%;
+  			left: 50%;
+  			-webkit-transform: translate(-50%, -50%);
+  			transform: translate(-50%, -50%);
+			width: 40vw;
+			z-index: -10;
+		}
+
+		h1.link_five:hover + .hover {
+			display: block;
+			position: absolute;
+  			top: 50%;
+  			left: 50%;
+  			-webkit-transform: translate(-50%, -50%);
+  			transform: translate(-50%, -50%);
+			width: 30vw;
+			z-index: -10;
+		}
+
+		h1.link_six:hover + .hover {
+			display: block;
+			position: absolute;
+  			top: 50%;
+  			left: 50%;
+  			-webkit-transform: translate(-50%, -50%);
+  			transform: translate(-50%, -50%);
+			width: 30vw;
+			z-index: -10;
+		}
+
+		h1.link_seven:hover + .hover {
+			display: block;
+			position: absolute;
+  			top: 50%;
+  			left: 50%;
+  			-webkit-transform: translate(-50%, -50%);
+  			transform: translate(-50%, -50%);
+			width: 30vw;
+			z-index: -10;
+		}
+
+		h1.link_eleven:hover + .hover {
+			display: block;
+			position: absolute;
+  			top: 50%;
+  			left: 50%;
+  			-webkit-transform: translate(-50%, -50%);
+  			transform: translate(-50%, -50%);
+			width: 30vw;
+			z-index: -10;
+		}
+		h1.link_ten:hover + .hover {
+			display: block;
+			position: absolute;
+  			top: 50%;
+  			left: 50%;
+  			-webkit-transform: translate(-50%, -50%);
+  			transform: translate(-50%, -50%);
+			width: 30vw;
+			z-index: -10;
+		}
+
+
 
 
 

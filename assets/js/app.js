@@ -41,6 +41,9 @@
 		 	$('.link_twelve').click(function(){
 		 		changeCSS('.twelve')
 		 	});
+		 	$('.link_thirteen').click(function(){
+		 		changeCSS('.thirteen')
+		 	});
 		 	$('.more').click(function(){
 		 		changeCSS('.issue_two')
 		 	});
@@ -127,6 +130,11 @@
 			$('.link_twelve').click(function(){
 				$('html,body').animate({
         		scrollTop: $('.link_twelve').offset().top},'slow');
+			
+		});
+			$('.link_thirteen').click(function(){
+				$('html,body').animate({
+        		scrollTop: $('.link_thirteen').offset().top},'slow');
 			
 		});
 			
