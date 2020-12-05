@@ -14,9 +14,10 @@ var allImages = new Array(
 
 var allVideos = new Array(
 	"https://player.vimeo.com/video/481775501",
-	"https://player.vimeo.com/video/434657986", 
+	"https://www.youtube.com/embed/TSyr5-6mXDE" , 
 	"https://player.vimeo.com/video/487234013",
 );
+
 
 var allPdfs = new Array(
 	{url: "assets/img/Fiction/paper.pdf", 
@@ -86,10 +87,16 @@ $(".hoverContainer").click(function(){
 for (var i = 0; i < allVideos.length; i++) {
 	console.log(i);
 
+	let containerVid = document.createElement('div')
+	containerVid.setAttribute('class', 'videoContainer')
+
 	let video = document.createElement('iframe')
+	video.setAttribute('allowFullScreen', '')
 	video.setAttribute('src', allVideos[i])
 	video.setAttribute('class', 'videos')
-	$("#content").append(video);
+
+	containerVid.append(video);
+	$("#content").append(containerVid);
 
 	$(video).load(function () {
 		// image is loaded
