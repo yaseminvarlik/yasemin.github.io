@@ -105,7 +105,7 @@
 			
 		}
 
-		.one, .two, .three, .four, .five, .six, .seven, .issue_two, .eight, .issue_three, .nine, .ten, .eleven, .twelve, .thirteen {
+		.one, .two, .three, .four, .five, .six, .seven, .issue_two, .eight, .issue_three, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen {
 			display: none;
 		
 		}
@@ -278,6 +278,11 @@
 			cursor: pointer;
 		}
 		.link_thirteen:hover {
+			font-style: italic;
+			cursor: pointer;
+		}
+
+		.link_fourteen:hover {
 			font-style: italic;
 			cursor: pointer;
 		}
