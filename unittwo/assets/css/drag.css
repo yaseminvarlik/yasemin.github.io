@@ -51,7 +51,7 @@ body {
 	right: 0;
 	display: flex;
 	flex-direction: column;
-	
+
 }
 
 
@@ -90,6 +90,8 @@ a {
 
 .textPdf {
 	position: absolute;
+	width: 100%;
+	height: 100%;
 	/*max-width: 305px;
 	max-height: 300px;*/
 	/*height: auto;*/
@@ -99,15 +101,18 @@ a {
 }
 
 .research {
+	width: 300px;
 	font-size: 12pt;
 	font-family: "Helvetica";
 	color: blue;
+	text-decoration: underline;
 }
 
 .triangle {
 	font-size: 12pt;
 	font-family: "Helvetica";
 	color: blue;
+	text-decoration: underline;
 }
 
 iframe {
@@ -118,9 +123,50 @@ iframe {
 }
 
 div {
-	font-size: 10pt;
+	font-size: 12pt;
 	font-family: Helvetica;
 }
+
+.info {
+	position: fixed;
+	top:8%;
+	right: 2%;
+	background-color: white;
+	width: 200px;
+	height: 80px;
+	font-size: 10pt;
+	opacity: 0;
+	z-index: 9;
+	padding: 5px;
+}
+
+
+.button {
+	position: fixed;
+	width: 100px;
+	height: 30px;
+	top: 2%;
+	right: 2%;
+	color: white;
+	font-size: 10pt;
+	cursor: pointer;
+	border: white 2px solid;
+	text-align: center;
+	 animation: blink-animation 1s steps(5, start) infinite;
+  	-webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+}
+
 
 
 

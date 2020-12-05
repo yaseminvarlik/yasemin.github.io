@@ -75,12 +75,6 @@ for (var i = 0; i < allImages.length; i++) {
 
 $(".hoverContainer").draggable();
 
-$(".hoverContainer").click(function(){
-		$(".text").toggle();
-		$(".images").toggle("opacity", 0);
-
-});
-
 
 
 // Video
@@ -172,25 +166,24 @@ for (var i = 0; i < allPdfs.length; i++) {
 
 }
 
-	$('.research').append("<p>Research Paper</p>")
-	$('.triangle').html("<p>Dialogue</p>");
+	$('.research').append("<p>http://researchpaper</p>")
+	$('.triangle').html("<p>http://dialogue</p>");
 
 $(".researchPaper").draggable();
 
-// $(".researchPaper").click(function(){
-// 	window.open('assets/img/Fiction/triangulate3.pdf');
-// });
 
-// $(".researchPaper").mouseenter(function(){
-// 	$(".pdf").hide();
-// 	$(".textPdf").css("opacity", 1);
-// });
-// $(".researchPaper").mouseout(function(){
-// 	$(".pdf").show();
-// 	$(".textPdf").css("opacity", 0);
-// });
+$(".button").click(function(){
+		$(".text").toggle();
+		$(".images").toggle("opacity", 0);
 
+});
 
+$('.button').mouseover(function(){
+	$('.info').css('opacity', 1);
+});
+$('.button').mouseout(function(){
+	$('.info').css('opacity', 0);
+});
 
 
 
