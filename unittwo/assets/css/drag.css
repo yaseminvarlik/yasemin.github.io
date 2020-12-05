@@ -4,8 +4,10 @@ body {
 	background: #606060;
 	font-size: 0;
 	margin: 0;
-/*	overflow: hidden;*/
+	overflow: hidden;
 }
+
+
 
 #allImages {
 	opacity: 1;
@@ -18,9 +20,10 @@ body {
 	position: absolute;
 }
 
+
 .images {
 	position: relative;
-	max-width: 300px;
+	max-width: 305px;
 	max-height: 300px;
 	height: auto;
 	cursor: move;
@@ -29,14 +32,16 @@ body {
 .text {
 	position: absolute;
 	color: white;
-	width: 400px;
+	width: 300px;
 	height: auto;
-	top: 50%;
-	left: 50%;
-	transform:translate(-50%,-50%);
+	top: 0%;
+	left: 0%;
+	/*transform:translate(-50%,-50%);*/
 	display: none;
 	cursor: move;
 }
+
+
 
 .videos {
 	width: 270px;
@@ -44,11 +49,53 @@ body {
 	cursor: move;
 }
 
-.pdf {
+
+
+
+#add_here {
+	font-size: 12pt;
+	font-family: "Helvetica";
+	color: blue;
+}
+
+/*.pdf {
+
 	position: absolute;
-	cursor: move;
-	width: 250px;
+	max-width: 230px;
+	max-height: 230px;
 	height: auto;
+	cursor: move;
+}*/
+.researchPaper {
+	position: absolute;
+}
+
+a {
+	position: absolute;
+	text-decoration: none;
+
+}
+
+.textPdf {
+	position: absolute;
+	/*max-width: 305px;
+	max-height: 300px;*/
+	/*height: auto;*/
+	/*color: black;*/
+	cursor: pointer;
+
+}
+
+.research {
+	font-size: 12pt;
+	font-family: "Helvetica";
+	color: blue;
+}
+
+.triangle {
+	font-size: 12pt;
+	font-family: "Helvetica";
+	color: blue;
 }
 
 iframe {
@@ -60,7 +107,7 @@ iframe {
 
 div {
 	font-size: 10pt;
-	font-family: Times;
+	font-family: Helvetica;
 }
 
 
