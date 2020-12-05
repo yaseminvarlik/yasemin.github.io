@@ -3,10 +3,16 @@ var allImages = new Array(
 	{ url: "assets/img/Fiction/nutritional_fact_chart.png", text: "Something so scientific yet comprehensible and has the power to control our biological lives. Grief (2016) " },
 	{ url: "assets/img/Fiction/progress_03.gif", text: "Using Adhocism as another method, one can achieve endless possibilities and combinations that appear from working with pre-existing subsystems. Everything can be modified and combined limitlessly with another subsystem to make a new one. Those subsystems within themselves can be broken apart and combined with a larger or a smaller subsystem to become something else. Jenks and Silver (1972) The cycle leads you to an infinite openness. " },
 	{ url: "assets/img/Fiction/progress_02.gif", text: "The term the “Quantified Self” is the ideology mentioned by Mark Grief in his book Against Everything: “In exercise one gets a sense of one’s body as a collection of numbers representing capabilities.” Grief (2016)" },
-	{ url: "assets/img/Fiction/dissect_02.jpg", text: "“When people use factoids, we feel like we are being manipulated by little bits of truth that have been broken off some larger, truer edifice, as if they were small chunks of cake… A factoid is a chunk of data that has been interpreted so as to appear truthful.”  Morton (2018) " },
+	{ url: "assets/img/Fiction/four_dimension.png", text: "“When people use factoids, we feel like we are being manipulated by little bits of truth that have been broken off some larger, truer edifice, as if they were small chunks of cake… A factoid is a chunk of data that has been interpreted so as to appear truthful.”  Morton (2018) " },
 	{ url: "assets/img/Fiction/embroidery_01.jpg", text: "In his Minnesota Declaration, Werner Herzog states: “Facts create norms. Fact is something very superficial, and you can only get the accountant’s truth. Facts have the power to form moral behavior and ethical norms.” Herzog (1999)" },
-	{ url: "assets/img/Fiction/Protein_Bars.jpg", text: "As Christopher Talley emphasizes in The Concept of Agency in Objects by Claire Russo, “The meaning of an object is born when object is used towards a purpose by a group.” Russo, C. (2007) " },
+	{ url: "assets/img/Fiction/lemon.png", text: "As Christopher Talley emphasizes in The Concept of Agency in Objects by Claire Russo, “The meaning of an object is born when object is used towards a purpose by a group.” Russo, C. (2007) " },
 	{ url: "assets/img/Fiction/insert.jpg", text: " “Language appears to you in the way you orchestrate it.” Morton (2018) " },
+	{ url: "assets/img/Fiction/grenade.png"},
+	{ url: "assets/img/Fiction/cookies.png"},
+	{ url: "assets/img/Fiction/fulfil.png"},
+	{ url: "assets/img/Fiction/optimum.png"},
+	{ url: "assets/img/Fiction/bw_chart.png"},
+	{ url: "assets/img/Fiction/definition.jpg"},
 	
 
 
@@ -114,7 +120,7 @@ for (var i = 0; i < allVideos.length; i++) {
 	});
 }
 
-
+// $(".videos").draggable();
 $(".videos").draggable({
 	start: function(){
       // Temporarily disable mouse events for IFRAME for smooth dragging

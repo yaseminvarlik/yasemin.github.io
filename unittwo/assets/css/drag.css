@@ -1,12 +1,17 @@
 /*//RESEARCH//*/
 
 body {
-	background: #606060;
+
+	background: lightgray;
 	font-size: 0;
 	margin: 0;
 	overflow: hidden;
 }
 
+#content {
+	width: 100vw;
+	height: 100vh;
+}
 
 
 #allImages {
@@ -142,6 +147,7 @@ div {
 
 
 .button {
+	z-index: 10;
 	position: fixed;
 	width: 100px;
 	height: 30px;
