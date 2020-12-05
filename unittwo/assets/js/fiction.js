@@ -115,7 +115,16 @@ for (var i = 0; i < allVideos.length; i++) {
 }
 
 
-$(".videos").draggable();
+$(".videos").draggable({
+	start: function(){
+      // Temporarily disable mouse events for IFRAME for smooth dragging
+      $('.videos iframe').css('pointer-events', 'none');
+   },
+    stop: function(){
+      // Re-enable mouse events for IFRAME
+      $('.videos iframe').css('pointer-events', 'auto');
+   }
+});
 
 
 
