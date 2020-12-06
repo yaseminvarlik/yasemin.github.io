@@ -26,7 +26,7 @@ var allVideos = new Array(
 
 
 var allPdfs = new Array(
-	{url: "assets/img/Fiction/paper.pdf", 
+	{url: "assets/img/Fiction/ficficbook.pdf", 
 	className: 'research', 
 	text: "Research Paper"},
 
