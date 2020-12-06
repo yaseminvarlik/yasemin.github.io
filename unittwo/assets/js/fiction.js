@@ -182,7 +182,7 @@ for (var i = 0; i < allPdfs.length; i++) {
 }
 
 	$('.research').append("<p>http://researchpaper</p>")
-	$('.triangle').html("<p>http://dialogue</p>");
+	$('.triangle').html("<p>http://triangulate3</p>");
 
 $(".researchPaper").draggable();
 
