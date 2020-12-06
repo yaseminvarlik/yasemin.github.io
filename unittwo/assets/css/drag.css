@@ -36,7 +36,7 @@ body {
 
 .text {
 	position: absolute;
-	color: white;
+	color: black;
 	width: 300px;
 	height: auto;
 	top: 0%;
@@ -153,7 +153,7 @@ div {
 	height: 30px;
 	top: 2%;
 	right: 2%;
-	color: white;
+	color: black;
 	font-size: 10pt;
 	cursor: pointer;
 	border: white 2px solid;
