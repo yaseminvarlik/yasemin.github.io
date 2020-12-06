@@ -156,7 +156,7 @@ div {
 	color: black;
 	font-size: 10pt;
 	cursor: pointer;
-	border: white 2px solid;
+	border: black 2px solid;
 	text-align: center;
 	 animation: blink-animation 1s steps(5, start) infinite;
   	-webkit-animation: blink-animation 1s steps(5, start) infinite;
