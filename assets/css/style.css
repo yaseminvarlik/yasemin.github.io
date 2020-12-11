@@ -105,6 +105,14 @@
 			
 		}
 
+		/*.add-margin {
+			margin-bottom: 10vh;
+		}*/
+
+		.remove-space{
+			margin-top: 2vh;
+		}
+
 		.sub_title {
 			margin-left: 5%;
 		}
