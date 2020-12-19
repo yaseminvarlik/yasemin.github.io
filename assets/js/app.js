@@ -47,6 +47,9 @@
 		 	$('.link_fourteen').click(function(){
 		 		changeCSS('.fourteen')
 		 	});
+		 	$('.link_fifteen').click(function(){
+		 		changeCSS('.fifteen')
+		 	});
 		 	$('.more').click(function(){
 		 		changeCSS('.issue_two')
 		 	});
@@ -65,9 +68,9 @@
 				applied = false;
 				};
 			}
-			$('.link_one').click(function(){
-				$('html,body').animate({
-        		scrollTop: $('.link_one').offset().top},'slow');
+		$('.link_one').click(function(){
+			$('html,body').animate({
+        	scrollTop: $('.link_one').offset().top},'slow');
 			
 		});
 			$('.more').click(function(){
@@ -146,9 +149,13 @@
         		scrollTop: $('.link_fourteen').offset().top},'slow');
 			
 		});
+			$('.link_fifteen').click(function(){
+				$('html,body').animate({
+        		scrollTop: $('.link_fifteen').offset().top},'slow');
+			
+		});
 			
 			});
-
 
 
 

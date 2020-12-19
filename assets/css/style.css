@@ -105,9 +105,9 @@
 			
 		}
 
-		/*.add-margin {
-			margin-bottom: 10vh;
-		}*/
+		.margintop {
+			margin-top: 1%;
+		}
 
 		.remove-space{
 			margin-top: 2vh;
@@ -117,7 +117,7 @@
 			margin-left: 5%;
 		}
 
-		.one, .two, .three, .four, .five, .six, .seven, .issue_two, .eight, .issue_three, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen {
+		.one, .two, .three, .four, .five, .six, .seven, .issue_two, .eight, .issue_three, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen {
 			display: none;
 		
 		}
@@ -141,6 +141,9 @@
 
 		}
 		
+		video {
+
+		}
 		.space-after{
 			margin-bottom: 0.7rem;
 		}
@@ -299,6 +302,11 @@
 			cursor: pointer;
 		}
 
+		.link_fifteen:hover {
+			font-style: italic;
+			cursor: pointer;
+		}
+
 		.more:hover {
 			font-style: italic;
 			cursor: pointer;
@@ -325,6 +333,17 @@
 
 		.hover {
 			display: none;
+		}
+
+		h1.link_fifteen:hover + .hover {
+			display: inline-block;
+			position: absolute;
+  			top: 50%;
+  			left: 50%;
+  			-webkit-transform: translate(-50%, -50%);
+  			transform: translate(-50%, -50%);
+			width: 30vw;
+			z-index: -10;
 		}
 
 		h1.link_fourteen:hover + .hover {
