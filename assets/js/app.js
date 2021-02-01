@@ -50,6 +50,9 @@
 		 	$('.link_fifteen').click(function(){
 		 		changeCSS('.fifteen')
 		 	});
+		 	$('.link_sixteen').click(function(){
+		 		changeCSS('.sixteen')
+		 	});
 		 	$('.more').click(function(){
 		 		changeCSS('.issue_two')
 		 	});
@@ -152,6 +155,11 @@
 			$('.link_fifteen').click(function(){
 				$('html,body').animate({
         		scrollTop: $('.link_fifteen').offset().top},'slow');
+			
+		});
+			$('.link_sixteen').click(function(){
+				$('html,body').animate({
+        		scrollTop: $('.link_sixteen').offset().top},'slow');
 			
 		});
 			
