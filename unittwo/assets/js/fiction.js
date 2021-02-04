@@ -32,8 +32,14 @@ var allPdfs = new Array(
 
 	{url: "assets/img/Fiction/triangulate3.pdf", 
 	className: 'triangle', 
-	text: "Dialogue"}
+	text: "Dialogue"},
+
+	{url: "assets/img/Fiction/The_Scarlet_Letter.pdf", 
+	className: 'scarlet', 
+	text: "Scarlet Letter"}
 );
+
+
 
 // allPdfs[0].className ='research'
 // allPdfs[1].className ='triangle'
@@ -183,6 +189,7 @@ for (var i = 0; i < allPdfs.length; i++) {
 
 	$('.research').append("<p>http://researchpaper</p>")
 	$('.triangle').html("<p>http://triangulate3</p>");
+	$('.scarlet').html("<p>http://thescarletletter</p>");
 
 $(".researchPaper").draggable();
 
