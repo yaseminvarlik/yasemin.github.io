@@ -53,6 +53,9 @@
 		 	$('.link_sixteen').click(function(){
 		 		changeCSS('.sixteen')
 		 	});
+		 	$('.link_seventeen').click(function(){
+		 		changeCSS('.seventeen')
+		 	});
 		 	$('.more').click(function(){
 		 		changeCSS('.issue_two')
 		 	});
@@ -160,6 +163,11 @@
 			$('.link_sixteen').click(function(){
 				$('html,body').animate({
         		scrollTop: $('.link_sixteen').offset().top},'slow');
+			
+		});
+			$('.link_seventeen').click(function(){
+				$('html,body').animate({
+        		scrollTop: $('.link_seventeen').offset().top},'slow');
 			
 		});
 			
