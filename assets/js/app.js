@@ -170,6 +170,11 @@
         		scrollTop: $('.link_seventeen').offset().top},'slow');
 			
 		});
+		$('.link_eighteen').click(function(){
+				$('html,body').animate({
+        		scrollTop: $('.link_eighteen').offset().top},'slow');
+			
+		});
 			
 			});
 

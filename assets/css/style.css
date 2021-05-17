@@ -117,7 +117,7 @@
 			margin-left: 5%;
 		}
 
-		.one, .two, .three, .four, .five, .six, .seven, .issue_two, .eight, .issue_three, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen, .sixteen, .seventeen {
+		.one, .two, .three, .four, .five, .six, .seven, .issue_two, .eight, .issue_three, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen, .sixteen, .seventeen, .eighteen {
 			display: none;
 		
 		}
@@ -317,6 +317,11 @@
 			cursor: pointer;
 		}
 
+		.link_eighteen:hover {
+			font-style: italic;
+			cursor: pointer;
+		}
+
 		.more:hover {
 			font-style: italic;
 			cursor: pointer;
@@ -343,6 +348,17 @@
 
 		.hover {
 			display: none;
+		}
+
+		h1.link_eighteen:hover + .hover{
+			display: inline-block;
+			position: absolute;
+  			top: 50%;
+  			left: 50%;
+  			-webkit-transform: translate(-50%, -50%);
+  			transform: translate(-50%, -50%);
+			width: 35vw;
+			z-index: -10;
 		}
 
 		h1.link_seventeen:hover + .hover{
