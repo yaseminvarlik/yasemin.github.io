@@ -57,7 +57,7 @@
 		 		changeCSS('.seventeen')
 		 	});
 		 	$('.link_eighteen').click(function(){
-		 		changeCSS('.seventeen')
+		 		changeCSS('.eighteen')
 		 	});
 		 	$('.more').click(function(){
 		 		changeCSS('.issue_two')
