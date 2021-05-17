@@ -56,6 +56,9 @@
 		 	$('.link_seventeen').click(function(){
 		 		changeCSS('.seventeen')
 		 	});
+		 	$('.link_eighteen').click(function(){
+		 		changeCSS('.seventeen')
+		 	});
 		 	$('.more').click(function(){
 		 		changeCSS('.issue_two')
 		 	});
