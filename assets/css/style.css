@@ -334,6 +334,15 @@
 			font-style: italic;
 		}
 
+		.bold_text {
+			font-weight: bold;
+			font-style: italic;
+		}
+
+		.underline_text{
+			text-decoration: underline;
+		}
+
 		.underline:hover {
 			text-decoration: underline;
 		}
